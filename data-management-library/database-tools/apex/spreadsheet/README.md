@@ -24,7 +24,7 @@ If you do not currently have a cloud service, sign up for a free trial account a
 | 3 | [Adding a Calendar](3-using-the-runtime-environment-adding-a-calendar.md) | 5 min |
 
 
-### Parts
+## Parts
 ### **Part 1** - Acquire an Oracle Cloud trial account
 If you already have an Oracle Cloud trial account, you may skip to the next part.
 
