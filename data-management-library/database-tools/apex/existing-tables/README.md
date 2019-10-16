@@ -1,23 +1,22 @@
-# Building an App from a Spreadsheet with Oracle Apex
+# Creating an App based on Existing Tables for Oracle Autonomous Cloud Service
 
-This lab walks you through uploading a spreadsheet into an Oracle database table, and then creating an application based on this new table. You will then play with the Interactive Report and improve the attached form. Lastly, you will add a Calendar page and then link it to the existing form page.
-
-*Rather than trying to email a spreadsheet to gather information from different people, simply create an app in minutes, and email the URL. This single source-of-truth, multi-user, secured, scalable app is so much better than having 20 (incomplete) spreadsheets!*
+This lab walks you through creating an application based on existing tables in your Oracle Database. Go from zero to hero in a ridiculously short period of time!
 
 ## Lab Objectives
 
-* Obtain a Workspace
-* Build your first app through uploading a Spreadsheet
-* Improve the Interactive Report
-* Add a Calendar
+To be added.
 
 ## Lab Modules
 
 | # | Module | Est. Time |
 | --- | --- | --- |
-| 1 | [Creating an App from a Spreadsheet](1-building-your-first-app-creating-an-app-from-a-spreadsheet.md) | 4 min |
-| 2 | [Improving the Report and Form](2-using-the-runtime-environment-improving-the-report-and-form.md) | 10 min |
-| 3 | [Adding a Calendar](3-using-the-runtime-environment-adding-a-calendar.md) | 5 min |
+| 1 | [Installing Sample Tables](1-building-your-table-and-view-installing-sample-tables.md) | 5 min |
+| 2 | [Using the Create Application Wizard](2-building-your-app-using-the-create-application-wizard.md) | 10 min |
+| 3 | [Improving the Generated App](3-recreating-the-app-improving-the-generated-app.md) | 5 min |
+| 4 | [Updating the Milestones Page](4-using-page-designer-updating-the-milestones-page.md) | 5 min |
+| 5 | [Add the Project Form Page](5-creating-a-page-to-update-project-records-add-the-project-form-page.md) | 15 min |
+| 6 | [Updating the Task Pages](6-improving-usability-updating-the-task-pages.md) | 10 min |
+| 7 | [Link the Calendar to the Tasks Form Pages](7-linking-pages-link-the-calendar-to-the-tasks-form-pages.md) | 3 min |
 
 
 ## Parts
@@ -105,6 +104,6 @@ When you first access APEX you will need to log in as an APEX instance administr
     
 ## Summary
 
-At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. To be added. [Click here to navigate to Module 1](1-building-your-first-app-creating-an-app-from-a-spreadsheet.md)
+At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. To be added. [Click here to navigate to Module 1](1-building-your-table-and-view-installing-sample-tables.md)
 
 
