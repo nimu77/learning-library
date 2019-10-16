@@ -63,11 +63,13 @@
     ![](images/module3/3.5(1).PNG)
 
 10. Within the Code Editor, enter the following:
+
     ```sql
     select distinct status d, status r
     from spreadsheet
     order by 1        
     ```
+    
 11. Click **Validate**. 
     ![](images/module3/3.5(2).PNG)
 12. Click **OK**.  
