@@ -69,8 +69,9 @@
     from spreadsheet
     order by 1        
     ```
-    
-11. Click **Validate**. 
+
+11. Click **Validate**.
+ 
     ![](images/module3/3.5(2).PNG)
 12. Click **OK**.  
 13. Display Extra Values, select **No**.
