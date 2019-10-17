@@ -24,7 +24,7 @@ This lab walks you through uploading a spreadsheet into an Oracle database table
 ### **Part 1** - Acquire an Oracle Cloud trial account
 If you already have an Oracle Cloud trial account, you may skip to the next part.
 
-Please click this link to create your free account. When you complete the registration process you'll receive an account with a $300 credit that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud.
+Please [click this link to create your free account](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType). When you complete the registration process you'll receive an account with a $300 credit that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud.
 
 Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to Part 2.
     ![](images/0/get-started-email.png)
