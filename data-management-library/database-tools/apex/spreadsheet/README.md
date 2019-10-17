@@ -44,7 +44,7 @@ In this part, you will log into your Oracle Cloud account so that you can start 
 
 5. Enter your **Username** and **Password** in the input fields and click **Sign In**.
 
-    ![](images/0/enter-oracle-cloud-account-name.png)
+    ![](images/0/enter-user-name-and-password.png)
 
 ### **Part 3** - Create an Autonomous Transaction Processing instance
 In this part, you will create an instance of the Autonomous Transaction Processing database service.
