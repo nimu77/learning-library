@@ -1,6 +1,4 @@
-## Module 5
-
-## Creating a page to update project records - Add the Project Form Page
+# Module 5: Creating a page to update project records - Add the Project Form Page
 
 ### **Part 1** - Adding a Page
 

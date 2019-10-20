@@ -1,6 +1,4 @@
-## Module 3
-
-## Recreating the App - Improving the Generated App
+# Module 3: Recreating the App - Improving the Generated App
 
 ### **Part 1** - View Milestone Form
 

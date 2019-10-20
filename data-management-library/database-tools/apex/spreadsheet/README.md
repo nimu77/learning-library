@@ -32,7 +32,7 @@ Soon after requesting your trial you will receive the following email. Once you 
 ### **Part 2** - Log in to your Oracle Cloud account
 In this part, you will log into your Oracle Cloud account so that you can start working with various services.
 
-1. You should have signed up for your Oracle Cloud trial account. If not, return to the Lab Introduction and complete Part 1.
+1. You should have signed up for your Oracle Cloud trial account. If not, return to Part 1.
 
 2. Once you receive the **Get Started Now with Oracle Cloud** email, make note of your **Username**, **Password**, and **Cloud Account Name**.
 
@@ -57,7 +57,7 @@ In this part, you will create an instance of the Autonomous Transaction Processi
 
     ![](images/0/click-create-autonomous-database.png)
 
-3. Select the **Always Free** option, enter **SecretPassw0rd** for the ADMIN password, then click **Create Autonomous Database**.
+3. Select the **Always Free** option, enter **```SecretPassw0rd```** for the ADMIN password, then click **Create Autonomous Database**.
 
     ![](images/0/atp-settings-1.png)
     ![](images/0/atp-settings-2.png)

@@ -1,6 +1,4 @@
-## Module 4
-
-## Using Page Designer - Updating the Milestones Page
+# Module 4: Using Page Designer - Updating the Milestones Page
 
 ### **Part 1** - Update Project Id
 - To replace the Project Id with the Project Name, define an LOV.

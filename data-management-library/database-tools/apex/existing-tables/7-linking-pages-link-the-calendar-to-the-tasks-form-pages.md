@@ -1,6 +1,4 @@
-## Module 7
-
-## Linking pages - Link the Calendar to the Tasks Form Page
+# Module 7: Linking pages - Link the Calendar to the Tasks Form Page
 
 ### **Part 1** - Adding a Link
 

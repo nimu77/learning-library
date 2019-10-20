@@ -1,6 +1,4 @@
-## Module 2
-
-## Building your app - Using the Create Application Wizard
+# Module 2: Building your app - Using the Create Application Wizard
 
 ### **Part 1** - Creating an App
 

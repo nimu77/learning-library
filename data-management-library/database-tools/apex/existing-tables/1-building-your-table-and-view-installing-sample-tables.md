@@ -1,6 +1,4 @@
-## Module 1
-
-## Building your tables and view - Installing Sample Tables
+# Module 1: Building your tables and view - Installing Sample Tables
 
 ### **Part 1** - Logging In
 

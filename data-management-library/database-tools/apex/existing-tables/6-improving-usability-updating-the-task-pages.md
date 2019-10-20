@@ -1,6 +1,4 @@
-## Module 6
-
-## Improving Usability - Updating the Task Pages
+# Module 6: Improving Usability - Updating the Task Pages
 
 ### **Part 1** - Improving the Report
 
