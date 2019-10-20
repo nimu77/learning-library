@@ -32,9 +32,11 @@
 ![](images/section6/6.1(5).PNG)  
 
 - For Primary Key Column, select **ID (Number)**.
+
+    ![](images/section6/6.1(6).PNG)
 - Click **Create**.  
 
-![](images/section6/6.1(6).PNG)
+
 
 ### **Part 2** - Update the Status Item
 
