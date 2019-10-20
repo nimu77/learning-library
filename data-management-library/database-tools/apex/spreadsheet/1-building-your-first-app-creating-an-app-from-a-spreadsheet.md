@@ -1,4 +1,4 @@
-## Module 1: Building your first app - Creating an App from a Spreadsheet
+# Module 1: Building your first app - Creating an App from a Spreadsheet
 
 ### **Part 1** - Creating an app 
 

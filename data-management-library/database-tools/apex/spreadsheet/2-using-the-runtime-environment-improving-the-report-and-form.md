@@ -1,4 +1,4 @@
-## Module 2: Using the Runtime Environment - Improving the Report and Form
+# Module 2: Using the Runtime Environment - Improving the Report and Form
 
 ### **Part 1** - Sort the Interactive Report
 
