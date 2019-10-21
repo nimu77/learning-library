@@ -1,8 +1,8 @@
-# Building an App from a Spreadsheet with Oracle Apex
+# Building an App from a Spreadsheet with Oracle APEX
 
-This lab walks you through uploading a spreadsheet into an Oracle database table, and then creating an application based on this new table. You will then play with the Interactive Report and improve the attached form. Lastly, you will add a Calendar page and then link it to the existing form page.
+This lab walks you through uploading a spreadsheet into an Oracle database table, and then creating an application based on this new table. You will then learn to work with the resulting Interactive Report and form pages. Finally, you will add a Calendar page and then link it to the existing form page.
 
-*Rather than trying to email a spreadsheet to gather information from different people, simply create an app in minutes, and email the URL. This single source-of-truth, multi-user, secured, scalable app is so much better than having 20 (incomplete) spreadsheets!*
+In the future, rather than emailing spreadsheets around to gather information, you'll know how to easily create an app in minutes and email the URL instead. The result will be a secure, scalable, multi-user app that provides a single source-of-truth for your data!
 
 ## Lab Objectives
 
@@ -21,32 +21,35 @@ This lab walks you through uploading a spreadsheet into an Oracle database table
 
 
 ## Parts
-### **Part 1** - Acquire an Oracle Cloud trial account
-If you already have an Oracle Cloud trial account, you may skip to the next part.
 
-Please [click this link to create your free account](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType). When you complete the registration process you'll receive an account with a $300 credit that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud.
+### **Part 1**: Acquire an Oracle Cloud trial account
 
-Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to Part 2.
+In this part, you will create an Oacle Cloud trial account. If you already have an Oracle Cloud account, you may skip to Part 2.
+
+1.  Please [click this link to create your free account](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType). When you complete the registration process you'll receive an account with a $300 credit and several "forever free" services that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud. The forever free services will continue to work after the trial expires.
+
+2.  Soon after requesting your trial you will receive the following email. Once you receive this email you can proceed to Part 2.
+
     ![](images/0/get-started-email.png)
 
-### **Part 2** - Log in to your Oracle Cloud account
+### **Part 2**: Log in to your Oracle Cloud account
+
 In this part, you will log into your Oracle Cloud account so that you can start working with various services.
 
-1. You should have signed up for your Oracle Cloud trial account. If not, return to Part 1.
+1. Once you receive the **Get Started Now with Oracle Cloud** email, make note of your **Username**, **Password**, and **Cloud Account Name**.
 
-2. Once you receive the **Get Started Now with Oracle Cloud** email, make note of your **Username**, **Password**, and **Cloud Account Name**.
+2. From any browser go to https://cloud.oracle.com/en_US/sign-in.
 
-3. From any browser go to https://cloud.oracle.com/en_US/sign-in.
-
-4. Enter your **Cloud Account Name** in the input field and click the **Next** button.
+3. Enter your **Cloud Account Name** in the input field and click the **Next** button.
 
     ![](images/0/enter-oracle-cloud-account-name.png)
 
-5. Enter your **Username** and **Password** in the input fields and click **Sign In**.
+4. Enter your **Username** and **Password** in the input fields and click **Sign In**.
 
     ![](images/0/enter-user-name-and-password.png)
 
-### **Part 3** - Create an Autonomous Transaction Processing instance
+### **Part 3**: Create an Autonomous Transaction Processing instance
+
 In this part, you will create an instance of the Autonomous Transaction Processing database service.
 
 1. From the Cloud Dashboard, select the navigation menu icon in the upper left-hand corner and then select **Autonomous Transaction Processing**.
@@ -63,7 +66,7 @@ In this part, you will create an instance of the Autonomous Transaction Processi
     ![](images/0/atp-settings-2.png)
     ![](images/0/atp-settings-3.png)
 
-    After clicking **Create Autonomous Database, you will be redirected to the Autonomous Database Details page for the new instance. Continue to the next part when the status changes from:
+    After clicking **Create Autonomous Database**, you will be redirected to the Autonomous Database Details page for the new instance. Continue to the next part when the status changes from:
 
     ![](images/0/status-provisioning.png)
     
@@ -71,14 +74,15 @@ In this part, you will create an instance of the Autonomous Transaction Processi
 
     ![](images/0/status-available.png)
 
-### **Part 4** - Create a new workspace in APEX
+### **Part 4**: Create a new workspace in APEX
+
 When you first access APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what APEX applications are built on top of.
 
 1. Click the **Service Console** button.
 
     ![](images/0/click-atp-service-console.png)
 
-2. Click **Development** option in the menu on the left, then click the **Oracle APEX** option. 
+2. Click the **Development** option in the menu on the left, then click **Oracle APEX**. 
 
     ![](images/0/click-oracle-apex.png)
 
@@ -92,7 +96,12 @@ When you first access APEX you will need to log in as an APEX instance administr
 
 5. Enter the following details and click **Create Workspace**.
 
-    ![](images/0/enterdetails.png)
+    | Property | Value |
+    | --- | --- |
+    | Database User | DEMO |
+    | Password | **`SecretPassw0rd`** |
+    | Workspace Name | DEMO |
+
     ![](images/0/create-workspace.png)
 
 6. Click the **DEMO** link in the success message. This will log you out of APEX administration so that you can log into your new workspace.
@@ -105,6 +114,4 @@ When you first access APEX you will need to log in as an APEX instance administr
     
 ## Summary
 
-At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. To be added. [Click here to navigate to Module 1](1-building-your-first-app-creating-an-app-from-a-spreadsheet.md)
-
-
+This completes the lab setup. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here to navigate to Module 1](1-building-your-first-app-creating-an-app-from-a-spreadsheet.md)
