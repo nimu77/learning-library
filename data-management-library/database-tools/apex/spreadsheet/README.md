@@ -24,7 +24,7 @@ In the future, rather than emailing spreadsheets around to gather information, y
 
 ### **Part 1**: Acquire an Oracle Cloud trial account
 
-In this part, you will create an Oacle Cloud trial account. If you already have an Oracle Cloud account, you may skip to Part 2.
+In this part, you will create an Oracle Cloud trial account. If you already have an Oracle Cloud account, you may skip to Part 2.
 
 1.  Please [click this link to create your free account](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType). When you complete the registration process you'll receive an account with a $300 credit and several "forever free" services that will enable you to complete the lab for free. You can then use any remaining credit to continue to explore the Oracle Cloud. The forever free services will continue to work after the trial expires.
 
