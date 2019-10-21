@@ -18,11 +18,9 @@
 
     ![](images/module2/3.1.png)
     
-2. For Sample Data Set select **Projects and Tasks**.
+2. For Sample Data Set select **Projects and Tasks** and click **Next**.
 
     ![](images/module2/3.2.png)
-    
-3. Click **Next**.
 
 ### **Part 4** - Naming the Table
 
