@@ -1,4 +1,4 @@
-# Module 3: Using the Runtime Environment - Adding a Calendar
+# Module 3: Adding a Calendar
 
 ### **Part 1** - Add a Calendar
 

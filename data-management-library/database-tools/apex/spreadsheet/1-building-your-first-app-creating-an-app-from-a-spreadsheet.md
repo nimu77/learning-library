@@ -1,5 +1,4 @@
 # Module 1: Creating an App from a Spreadsheet
-
 ### **Part 1** - Creating an app 
 
 1. Click **App Builder**.
