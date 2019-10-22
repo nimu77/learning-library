@@ -1,33 +1,24 @@
 # Module 3: Adding a Calendar
-
+In this module, you will create a new page to add calendar to your first application and link to other page to update calendar data.
 ### **Part 1** - Add a Calendar
+TODO.
+1. Navigate back to the development environment. In the App Builder, navigate to the App Home Page, and then click **Create Page**.
 
-1. Navigate back to the development environment.
-2. In App Builder, navigate to the App Home Page.
-3. Click **Create Page**.
+    ![](images/3/create-page.png)
 
-    ![](images/module4/4.1.PNG)
+2. Click **Calendar**.
+    ![](images/3/calendar.png)
 
-4. Click **Calendar**.
+3. For, Page Name, enter **Calendar**; For Breadcrumb, select **Breadcrumb** and then click **Next**.  
 
-    ![](images/module4/4.1(1).PNG)
+    ![](images/3/breadcrumb.png)
 
-5. Page Name, enter **Calendar**.
-6. Breadcrumb, select **Breadcrumb**.
-7. Click **Next**.  
-
-    ![](images/module4/4.1(2).PNG)
-
-8. Navigation Preference, click **Create a new navigation menu entry**.
-    ![](images/module4/4.1(3).PNG)
-9. Click **Next**.  
-10. Table / View Name, select **SPREADSHEET (table)**.
-11. Click **Next**.  
-    ![](images/module4/4.1(4).PNG)
-12. Display Column, select **TASK_NAME**.
-13. End Date Column, select **END_DATE**.
-14. Click **Create**.  
-    ![](images/module4/4.1(5).PNG)
+4. Navigation Preference, click **Create a new navigation menu entry** and then click **Next**. 
+    ![](images/3/create-a-new-navigation-menu.png) 
+5. For, Table / View Name, select **SPREADSHEET (table)** and then Click **Next**.  
+    ![](images/3/spreadsheet-table.png)
+6. For Display Column, select **TASK_NAME**; For End Date Column, select **END_DATE** and then click **Create**.  
+    ![](images/3/click-create.png)
 
 ### **Part 2** – Link the Calendar to the Update Form
 
@@ -36,12 +27,11 @@
 3. Page, select **3**.
 4. Set Items – Name, select **P3_ID**; Value, select **ID**.
 5. Clear Cache, enter **3**.
-6. Click **OK**.
-7. Click **Save and Run**.
+6. Click **OK**, and then click **Save and Run**.
 
-    ![](images/module4/4.2.PNG)
+    ![](images/3/update-form.png)
 
-    ![](images/module4/4.2(1).PNG)  
+    ![](images/3/new-form-display.png)  
     *Note: You may need to navigate to the month of May to see calendar entries.*
 
 ## Summary
