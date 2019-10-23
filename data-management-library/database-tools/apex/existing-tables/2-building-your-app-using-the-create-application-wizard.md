@@ -1,43 +1,41 @@
 # Module 2: Building your app - Using the Create Application Wizard
+TODO.
 
-### **Part 1** - Creating an App
+### **Part 1**: Build an App
+TODO.
+1. In the App Builder menu, click **App Builder** and then click **Create**.
+2. Click **Create**
+    ![](images/section3/click-create.png)
 
-- In the App Builder menu, click **App Builder**.
-- Click **Create**
-![](images/section3/3.1.PNG)
-
-### **Part 2** - Selecting App Type
-
-- Click **New Application**.
-![](images/section3/3.2.PNG)
-
-### **Part 3** - Naming the App
-- For Name enter **Projects**.
-- Click **Appearance**.  
-![](images/section3/3.3.PNG)
+3. Click **New Application**.
+    ![](images/section3/new-application.png)
+4. For Name enter **Projects**, and then click **Appearance Icon**.  
+    ![](images/section3/appearance-icon.png)
 - For Theme Style select **Vita – Slate**.
-- Click **Choose New Icon**.
-- Select the icon color and an icon.
-- Click **Set Application Item**.
-- Click **Save Changes**. 
+- Click **Choose New Icon**, select the icon color and an icon, click **Set Application Item**, and then click **Save Changes**.
 
-![](images/section3/3.3(1).PNG)
+    ![](images/section3/choose-new-icon.png)
 
-### **Part 4** – Add the Dashboard Page
+### **Part 2**: Add the Dashboard Page
 
-- Click **Add Page**.
-- Click **Dashboard**.
+1. Click **Add Page**, and then click **Dashboard**.
+    ![](images/section3/add-page-dashboard.png)
 
-![](images/section3/3.4.PNG)
+2. For Chart 1, select **Bar**, and then enter the following:
 
-- For Chart 1, enter the following:
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | Chart Name | enter |**Budget versus Cost** |
+    | Table or View | select | **SAMPLE$PROJECTS_V** |
+    | Label Column | select | **Name** |
+    | Value Column | select | **BUDGET_V_COST** |
    - Chart Type – select **Bar**.
    - Chart Name – enter **Budget versus Cost**.
    - Table or View – select **SAMPLE$PROJECTS_V**.
    - Label Column – select **NAME**.
    - Value Column – select **BUDGET_V_COST**.
 
- ![](images/section3/3.4(1).PNG) 
+    ![](images/section3/chart-1.png) 
 
 - For Chart 2, enter the following:
    - Chart Type – select **Pie**.
@@ -45,7 +43,7 @@
    - Table or View – select **SAMPLE$PROJECTS_V**.
    - Label Column – select **Status**.
    - Type – select **Count**.  
-![](images/section3/3.4(2).PNG)  
+    ![](images/section3/chart-2.png)  
 
 - For Chart 3, enter the following:
    - Chart Type – select **Bar**.
@@ -54,40 +52,37 @@
    - Label Column – select **PROJECT_LEAD**.
    - Type – select **Count**.
 - Click **Add Page**.  
-![](images/section3/3.4(3).PNG)  
+    ![](images/section3/chart-3.png)  
 
-### **Part 5** – Add the Project Page
+### **Part 3**: Add the Project Page
 
-- Click **Add Page**.
-- Click **Cards**.
-- Enter the following:
+1. Click **Add Page**, and then click **Cards**.
+2. Enter the following:
    - Page Name - enter **Projects**.
    - Table - select **SAMPLE$PROJECTS**.
    - Card Title - select **NAME**.
    - Description - select **Description**.
    - Additional Text - select **PROJECT_LEAD**.
-- Click **Add Page**.
+3. Click **Add Page**.
 
-![](images/section3/3.5.PNG) 
+    ![](images/section3/add-page-project.png) 
 
-### **Part 6** - Add the Milestone Pages
+### **Part 4**: Add the Milestone Page
 
-- Click **Add Page**.
-- Click **Report**.
-- Enter the following:
+1. Click **Add Page**, and then click **Report**.
+2. Enter the following:
   - Page Name - enter **Milestones**.
   - Table - select **SAMPLE$PROJECT_MILESTONES**.
   - Check **Include Form**. 
   - Lookup Key 1 - select **PROJECT_ID**.
   - Display Col 1 - select **SAMPLE$PROJECTS.NAME**.
-- Click **Add Page**.  
-![](images/section3/3.6.PNG)
+3. Click **Add Page**.  
+    ![](images/section3/add-page-milestone.png)
 
-### **Part 7** - Add the Task Pages
+### **Part 5**: Add the Task Pages
 
-- Click **Add Page**.
-- Click **Report**.
-- Enter the following:
+1. Click **Add Page**, and then click **Report**.
+2.  Enter the following:
   - Page Name - enter **Tasks**. 
   - Table - select **SAMPLE$PROJECT_TASKS**.
   - Check **Include Form**. 
@@ -95,39 +90,30 @@
   - Display Col 1 - select **SAMPLE$PROJECTS.NAME**.
   - Lookup Key 2 - select **MILESTONE_ID**. 
   - Display Col 2 - select **SAMPLE$PROJECT_MILESTONES.NAME**.
-- Click **Add Page**.  
-![](images/section3/3.7.PNG)
+3. Click **Add Page**.  
+    ![](images/section3/add-page-tasks.png)
 
-### **Part 8** – Add a Calendar Page
+### **Part 6**: Add a Calendar Page
 
-- Click **Add Page**.
-- Click **Calendar**.
+1. Click **Add Page**, and then click **Calendar**.
 - Enter the following:
   - Page Name - enter **Tasks Calendar**.
   - Table - select **SAMPLE$PROJECT_TASKS**.
   - Display Column - select **NAME**.
   - Start Date Column - select **START_DATE**.
   - End Date Column - select **END_DATE**.
-- Click **Add Page**.  
-![](images/section3/3.8.PNG)
+3. Click **Add Page**.  
+    ![](images/section3/add-page-calendar.png)
 
-### **Part 9** – Include All Features
+### **Part 7**: Include All Features
 
-- Next to Features, click **Check All**.  
-![](images/section3/3.9.PNG)
-- Click **Create Application**.
+1. Next to Features, click **Check All**, and then click **Create Application**. 
+    ![](images/section3/check-all.png)
+    Once, you click **Create Application**, your new application will be displayed in Page Designer.
+2. Click **Run Application**.
+    ![](images/section3/run-application.png)
+3. Enter your user credentials, and play around with your new application.
 
-### **Part 10** - App in Page Designer
+    ![](images/section3/runtime-app.png)
 
-- Your new application will be displayed in Page Designer.
-- Click **Run Application**.
-![](images/section3/3.10.PNG)
-
-### **Part 11** – Runtime App
-
-- Enter your user credentials.
-- Play around with your new application.
-
-![](images/section3/3.11.PNG)
-
-To be added. [Click here to navigate to Module 3](3-recreating-the-app-improving-the-generated-app.md)  
+TODO. [Click here to navigate to Module 3](3-recreating-the-app-improving-the-generated-app.md)  

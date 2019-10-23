@@ -19,9 +19,9 @@ Now, that you have created an app. It is time to improve report page for better 
     ![](images/2/default-report-type.png)
 
 ### **Part 2** - Additional Interactive Report Enhancement
-In this part, you will further improve interactive report by adding new column by means of computation and chart.
+In this part, you will further improve interactive report by adding new column by means of computation and you will also create a chart to review report.
 1. Click **Actions**, select **Data**, select **Compute**.
-2. Enter following data and then click **Apply.**
+2. Enter following data, and then click **Apply.**
     | Property | Value |
     | --- | --- |
     | Label | **Budget V Cost** |
@@ -72,15 +72,15 @@ TODO.
     order by 1        
     ```
 
-11. Click **Validate**.
+11. Click **Validate**, and then Click **OK**.
 
     ![](images/2/sql-query.png)
-12. Click **OK**.  
-13. Display Extra Values, select **No**.
-14. Null Value Display, enter **- Select Status -**.
-15. Click **Save**.(In the toolbar - top right)  
+  
+12. Display Extra Values, select **No**.
+13. Null Value Display, enter **- Select Status -**.
+14. Click **Save**.(In the toolbar - top right)  
     ![](images/2/list-of-values.png)
-16. Now, navigate back to the runtime environment and refresh the browser. Click the edit icon, and then click on **Status**.
+15. Now, navigate back to the runtime environment and refresh the browser. Click the edit icon, and then click on **Status**.
 
     ![](images/2/new-status.png)
 

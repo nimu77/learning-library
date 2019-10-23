@@ -1,27 +1,23 @@
 # Module 1: Building your tables and view - Installing Sample Tables
+In this module, you will install your first sample datasets and review the datasets.
+### **Part 1**: Create EMP and DEPT Tables
+TODO.
+1. In the main menu, select **SQL Workshop**, select **Utilities**, and then click **Sample Datasets**.  
 
-### **Part 1** - Logging In
+    ![](images/1/sample-dataset.png)
 
-- In  the main menu, select **SQL Workshop**, select **Utilities**, click **Sample Datasets**.  
+2. On the Project Data row, click **Install**.  
+![](images/1/install-project-table.png)
+3. Now, click **Next**, click **Install Dataset**, and then click **Exit**.   
+    *We do not want to create an application directly on the tables*
 
-![](images/section2/2.1.PNG)
-
-### **Part 2** - Creating the EMP and DEPT Tables
-
-- On the Project Data row, click **Install**.  
-![](images/section2/2.2.PNG)
-- Click **Next**.
-- Click **Install Dataset**.
-- Click **Exit**.    
-*{We do not want to create an application directly on the tables}*
-
-### **Part 3** - Review Database Objects
-
+### **Part 2**: Review Database Objects
+TODO.
 - In the App Builder Menu, select **SQL Workshop**, and click **Object Browser**.  
-![](images/section2/2.3.png)
+![](images/1/object-browser.png)
 - Click on the tables and the various tabs (such as Data, Constraints, etc.) to review the table details.  
-![](images/section2/2.3(1).PNG)
+![](images/1/review-the-table.png)
 
 ## Summary
 
-To be added. [Click here to navigate to Module 2](2-building-your-app-using-the-create-application-wizard.md)  
+TODO. [Click here to navigate to Module 2](2-building-your-app-using-the-create-application-wizard.md)  

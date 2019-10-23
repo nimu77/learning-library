@@ -1,0 +1,23 @@
+{
+  "lab": {
+    "title": "Building a Proof-of-concept for Oracle Autonomous Cloud Service",
+    "modules": [
+      {
+        "filename": "README.md",
+        "title": "Lab Introduction"
+      },
+      {
+        "filename": "1-defining-new-data-structures-using-quick-sql.md",
+        "title": "Module 1: Defining new Data Structures - Using Quick SQL"
+      },
+      {
+        "filename": "2-creating-an-app-on-the-tables-from-quick-sql-using-the-create-application-wizard.md",
+        "title": "Module 2: Creating an App on the Tables from Quicj SQL - Using the create application wizard"
+      },
+      {
+        "filename": "3-improving-the-app-updating-a-page.md",
+        "title": "Module 3: Improving the App - Updating a Page"
+      }
+    ]
+  }
+}

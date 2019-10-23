@@ -1,22 +1,22 @@
-# Creating an App based on Existing Tables for Oracle Autonomous Cloud Service
+# Building a Proof-of-concept for Oracle Autonomous Cloud Service
 
-This lab walks you through creating an application based on existing tables in your Oracle Database. Go from zero to hero in a ridiculously short period of time!
+This lab starts with a napkin design of data structures we would like to use for a proof-of-concept. Using Quick SQL you will quickly define the data structures and utilize various table and column directives to better define the tables and also create some dummy data. You will then be creating an application based on the new tables. Lastly, you will be updating some of the generated components to improve the initial app.
+
+*From napkin design to demo-ready, proof-of-concept app, complete with some dummy data, in minutes - Viola!*
+
 
 ## Lab Objectives
 
-TODO.
+* TODO
+
 
 ## Lab Modules
 
 | # | Module | Est. Time |
 | --- | --- | --- |
-| 1 | [Installing Sample Tables](1-building-your-table-and-view-installing-sample-tables.md) | 5 min |
-| 2 | [Using the Create Application Wizard](2-building-your-app-using-the-create-application-wizard.md) | 10 min |
-| 3 | [Improving the Generated App](3-recreating-the-app-improving-the-generated-app.md) | 5 min |
-| 4 | [Updating the Milestones Page](4-using-page-designer-updating-the-milestones-page.md) | 5 min |
-| 5 | [Add the Project Form Page](5-creating-a-page-to-update-project-records-add-the-project-form-page.md) | 15 min |
-| 6 | [Updating the Task Pages](6-improving-usability-updating-the-task-pages.md) | 10 min |
-| 7 | [Link the Calendar to the Tasks Form Pages](7-linking-pages-link-the-calendar-to-the-tasks-form-pages.md) | 3 min |
+| 1 | [Using Quick SQL](1-defining-new-data-structures-using-quick-sql.md) | 4 min |
+| 2 | [Using the Create Application Wizard](2-creating-an-app-on-the-tables-from-quick-sql-using-the-create-application-wizard.md) | 10 min |
+| 3 | [Updating a Page](3-improving-the-app-updating-a-page.md) | 5 min |
 
 
 ## Parts
@@ -113,4 +113,4 @@ When you first access APEX you will need to log in as an APEX instance administr
     
 ## Summary
 
-This completes the lab setup. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here to navigate to Module 1](1-building-your-table-and-view-installing-sample-tables.md)
+This completes the lab setup. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it. [Click here to navigate to Module 1](1-building-your-first-app-creating-an-app-from-a-spreadsheet.md)
