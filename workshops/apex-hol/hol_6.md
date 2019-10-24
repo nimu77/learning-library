@@ -1,4 +1,4 @@
-![](images/1a.PNG)
+﻿![](images/1a.PNG)
 
 **Oracle Application Express: Developing Database Web Applications**
 

@@ -1,0 +1,80 @@
+{
+  "lab": {
+    "title": "Oracle Application Express",
+    "description": "This series of hands-on labs is designed to teach you how to build applications using Application Express. The primary vehicle for teaching is a single use case which is expanded on with each lab.",
+    "modules": [
+      {
+        "filename": "README.md",
+        "title": "Lab Introduction"
+      },
+      {
+        "filename": "hol_overview",
+        "title": "Hands-on Overview"
+      },
+      {
+         "filename": "hol_1.md",
+         "title": "Unit 1: Getting Started with Oracle Application Express"
+      },
+      {
+        "filename": "hol_2.md",
+        "title": "Unit 2: Using SQL Workshop"
+      },
+      {
+        "filename": "hol_3.md",
+        "title": "Unit 3: Creating a Database Application"
+      },
+      {
+        "filename": "hol_4.md",
+        "title": "Unit 4: Managing Pages in Page Designer"
+      },
+      {
+        "filename": "hol_5.md",
+        "title": "Unit 5: Developing Reports"
+      },
+      {
+        "filename": "hol_6.md",
+        "title": "Unit 6: Managing and Customizing Interactive Reports"
+      },
+      {
+        "filename": "hol_7.md",
+        "title": "Unit 7: Managing and Customizing Interactive Grids"
+      },
+      {
+        "filename": "hol_8.md",
+        "title": "Unit 8: Creating and Using Forms"
+      },
+      {
+        "filename": "hol_9.md",
+        "title": "Unit 9: Creating Application Page Controls"
+      },
+      {
+        "filename": "hol_10.md",
+        "title": "Unit 10: Adding Computations, Processes, and Validations"
+      },
+      {
+        "filename": "hol_11.md",
+        "title": "Unit 11: Implementing Navigation in your Application"
+      },
+      {
+        "filename": "hol_12.md",
+        "title": "Unit 12: Using Themes and Theme Styles"
+      },
+      {
+        "filename": "hol_13.md",
+        "title": "Unit 13: Implementing Security in your Application"
+      },
+      {
+        "filename": "hol_14.md",
+        "title": "Unit 14: Adding Additional Pages to your Application"
+      },
+      {
+        "filename": "hol_15.md",
+        "title": "Unit 15: Creating and Using Dynamic Actions and Plug-ins"
+      },
+      {
+        "filename": "hol_16.md",
+        "title": "Unit 16: Migrating Application Development Between Environments"
+      }
+    ]
+  }
+}
