@@ -1,4 +1,4 @@
-![](images/1a.PNG)
+![](images/16/1a.PNG)
 
 **Oracle Application Express: Developing Database Web Applications**
 
@@ -28,13 +28,13 @@ Note:
 
 1.	Navigate to **App Builder** and click **Import**.
     
-    ![](images/1_1.png)
+    ![](images/16/1_1.png)
 
 2.	Click **Choose File**.
     Navigate to your working directory and double-click the **demo projects app export-unit 15.sql** file. Then, click **Next**.
     **Note**: To import any other APEX application export in to your Workspace, you select that file in this step.
 
-    ![](images/1_2.png)
+    ![](images/16/1_2.png)
 
 3.	On the File Import Confirmation page, click **Next**.
 
@@ -42,11 +42,11 @@ Note:
     The steps might slightly differ if you select Reuse Application ID < n > option.
     Click **Install Application**.
 
-    ![](images/1_4.png)
+    ![](images/16/1_4.png)
 
 5.	Click **Edit Application**.
 
-    ![](images/1_5.png)
+    ![](images/16/1_5.png)
 
 6.	On the Supporting Objects page, click **Next**.
 
@@ -86,15 +86,15 @@ Steps 3 through 15 are optional. After exporting application from the current de
 
     e)	Select all of the relevant tables for this application. 
     Select the following tables:
-    -	**DEMO_PROJECTS**
-    -	**DEMO_PROJ_COMMENTS**
-    - 	**DEMO_PROJ_CONSTRAINTS**
-    -	**DEMO_PROJ_MILESTONES**
-    -	**DEMO_PROJ_STATUS**
-    -	**DEMO_PROJ_TASKS**
-    -	**DEMO_PROJ_TASK_LINKS**
-    -	**DEMO_PROJ_TASK_TODOS**
-    -	**DEMO_PROJ_TEAM_MEMBERS**
+        - **DEMO_PROJECTS**
+        - **DEMO_PROJ_COMMENTS**
+        - **DEMO_PROJ_CONSTRAINTS**
+        - **DEMO_PROJ_MILESTONES**
+        - **DEMO_PROJ_STATUS**
+        - **DEMO_PROJ_TASKS**
+        - **DEMO_PROJ_TASK_LINKS**
+        - **DEMO_PROJ_TASK_TODOS**
+        - **DEMO_PROJ_TEAM_MEMBERS**
     Click Generate **DDL**. 
 
     f)	For Script Name, enter a meaningful name, for example **Create Demo Project Tables**. Optionally enter a description.
@@ -191,4 +191,4 @@ Steps 3 through 15 are optional. After exporting application from the current de
 
 19.	Now, you can run and review the application.
 
-    ![](images/last.png)
+    ![](images/16/last.png)

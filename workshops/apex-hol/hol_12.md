@@ -1,4 +1,4 @@
-![](images/1a.PNG)
+![](images/12/1a.PNG)
 
 **Oracle Application Express: Developing Database Web Applications**
 
@@ -30,7 +30,7 @@ In the Developer Toolbar, click **Edit Page 2**.
     -	Source: Type – select **SQL Query**
 
 4.	In the SQL Query attribute, click the **Code Editor** button.
-    ![](images/1_4.png)
+    ![](images/12/1_4.png)
 
 5.	In the Code Editor window, delete the existing SQL Query and copy and paste the following code:
     ```
@@ -62,12 +62,12 @@ The DEMO_PROJ_TEAM_MEMBERS table includes columns which store an image and the i
     -	BLOB Attributes: Mime Type Column - select **PHOTO_MIMETYPE**
     -	BLOB Attributes: Filename Column - select **PHOTO_FILENAME**
     -	BLOB Attributes: Last Updated Column - select **PHOTO_LAST_UPDATED**
-    ![](images/1_6.png)
+    ![](images/12/1_6.png)
 
 7.	Under Rendering, expand the Team Members region. Select **Attributes**.
     In the property editor, locate **Appearance**. For Template, select **Cards**.
     Click **Template Options**.
-    ![](images/1_7.png)
+    ![](images/12/1_7.png)
 
 8.	In the Template Options dialog:
     -	Style - select **Basic**
@@ -75,10 +75,10 @@ The DEMO_PROJ_TEAM_MEMBERS table includes columns which store an image and the i
     -	Layout - select **4 Columns**
     -	Body Text - select **3 Lines**
     Click **OK**.
-    ![](images/1_8.png)
+    ![](images/12/1_8.png)
 
 9.	Click **Save**. Then, click **Save and Run** Page to see the new cards.
-    ![](images/1_9.png)
+    ![](images/12/1_9.png)
 
 ### HOL 12-2: Using Themes and Theme Styles
 
@@ -86,13 +86,13 @@ In this hands-on lab, you use the Theme Roller to save a Theme Style. Then, you 
 
 1.	Navigate to **App Builder** and then run the **Budget App** application.
     In the Developer Toolbar, click **Theme Roller**.
-    ![](images/2_1.png)
+    ![](images/12/2_1.png)
 
 2.	The current Theme Style is Vita.
     Under Global Colors, click the color swatch to select new colors. 
     To edit a specific component, expand a group and select new colors or styling of the component you wish to edit.
     Modify the look by specifying colors of your choice and preview the changes. Once you are done, click **Save As**.
-    ![](images/2_2.png)
+    ![](images/12/2_2.png)
 
 3.	In the Save As dialog, enter **Vita (Copy)** for Style Name and click **Save**.
 
@@ -101,22 +101,22 @@ In this hands-on lab, you use the Theme Roller to save a Theme Style. Then, you 
 5.	Click **Application < n >** in the Developer Toolbar. 
 In the application home page, click **Shared Components**.
 Under User Interface, click **User Interface Attributes**.
-    ![](images/2_5.png)
+    ![](images/12/2_5.png)
 
 6.	Under User Interfaces, click the **Edit** icon for Desktop.
-    ![](images/2_6.png)
+    ![](images/12/2_6.png)
 
 7.	Under Attributes, select **Yes** for Enable End Users to Choose Theme Style. 
     Notice that the new Theme Style you saved is displayed under Theme Style list.
     Click **Apply Changes**.
-    ![](images/2_7.png)
+    ![](images/12/2_7.png)
 
 8.	Now, run the application. At the bottom of the page, click the **Customize** link.
-    ![](images/2_8.png)
+    ![](images/12/2_8.png)
 
 9.	Using the Customize dialog, users can specify their Theme Style while running the application. Select the Theme Style that you saved in step 3 above, and click **Apply Changes**.
-    ![](images/2_9.png)
+    ![](images/12/2_9.png)
 
 10.	The Theme Style is applied and you see a message that says **Preferences changed for user < username >**.
-    ![](images/2_10.png)
-    ![](images/last.png)
+    ![](images/12/2_10.png)
+    ![](images/12/last.png)

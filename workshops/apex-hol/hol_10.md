@@ -1,4 +1,4 @@
-![](images/1a.PNG)
+![](images/10/1a.PNG)
 
 **Oracle Application Express: Developing Database Web Applications**
 
@@ -35,7 +35,7 @@ In this lab, you add validations to the Maintain Projects page so that when a us
 
 2.	In the page designer, click the **Processing** tab. 
     Right-click **Validating** and select **Create Validation**.
-    ![](images/1_2.png)
+    ![](images/10/1_2.png)
     In the central pane, click the **Help** tab.
     **Note**: The help text displays the currently selected attribute in the Property Editor (right pane). For example, clicking on the Validation Type attribute label (not the select list) displays a list of all the available options, together with a description of when each option will pass (not display the error message) or fail (displays the error message). 
 
@@ -48,8 +48,8 @@ In this lab, you add validations to the Maintain Projects page so that when a us
     -	Server-side Condition: Item - select **P5_STATUS_CD**
     -	Server-side Condition: Value - enter **COMPLETED**
     **Note**: This condition ensures that the validation only fires when the Status item is COMPLETED.
-    ![](images/1_3a.png)
-    ![](images/1_3b.png)
+    ![](images/10/1_3a.png)
+    ![](images/10/1_3b.png)
     Note: The #LABEL# text within the Error Message will be substituted with the Label of the associated item. In this manner, if the item label is updated the error message will also reflect the updated value. This improves consistency and prevents messages having an out of date label reference.
 
 4.	In the Processing pane, right-click **Validating** and select **Create Validation**.
@@ -61,17 +61,17 @@ In this lab, you add validations to the Maintain Projects page so that when a us
     -	Error: Associated Item - select **P5_COMPLETED_DATE**
     -	Condition: Type - select **Item is NOT NULL**
     -	Condition: Item - select **P5_COMPLETED_DATE**
-    ![](images/1_5a.png)
-    ![](images/1_5b.png)
+    ![](images/10/1_5a.png)
+    ![](images/10/1_5b.png)
 
 6.	Now that you created the two validations, you want to verify if they work as expected.            Navigate to the Demo Projects application runtime environment.
     In the navigation menu, click **Demo Projects**. Then, select a project name.
 
 7.	Try out these functions to see how the page responds:
     -	Save a record with a Status of COMPLETED and no Completion Date - An error message should be displayed.
-    ![](images/1_7a.png)
+    ![](images/10/1_7a.png)
     -	Save a record with a Completion Date in the future - An error message should be displayed.
-    ![](images/1_7b.png)
+    ![](images/10/1_7b.png)
 
 ### HOL 10-2: Creating and Using a Computation
 
@@ -86,23 +86,23 @@ In this lab, you create a computation that changes the Assigned To value entered
     Perform the following steps:
     a) In the PROJECT_BUDGET interactive report, click the **Edit** icon (pencil) for any record.
     Then, in the Developer Toolbar, click **Edit Page 3**.
-    ![](images/2_3a.png)
+    ![](images/10/2_3a.png)
     b) In the page designer, click **Page Processing**.
     Right-click **After Submit** and select **Create Computation**.
-    ![](images/2_3b.png)
+    ![](images/10/2_3b.png)
     c) In the property editor:
     -	Identification > Item Name: Select **P3_ASSIGNED_TO**
     -	Execution Options > Point: Select **After Submit**
     -	Computation > Type: Select **PL/SQL Expression**
     d) Computation > PL/SQL Expression: Enter **upper(:P3_ASSIGNED_TO)**
-    ![](images/2_3d.png)
+    ![](images/10/2_3d.png)
     Click **Save**
     e) This is a dialog page and so you cannot run this directly. You need to first run interactive report page. 
     Navigate to application runtime environment and click **Budget** in the navigation menu and then click the edit icon for a record.
-    ![](images/2_3e.png)
+    ![](images/10/2_3e.png)
     f)	Click **Apply Changes**. The data is submitted now.
     g)	Navigate to application runtime environment and click PROJECT_BUDGET in the navigation menu and then click the edit icon for the same record that you did in step e above. Notice that the value for Assigned To is stored in uppercase.
-    ![](images/2_3g.png)
+    ![](images/10/2_3g.png)
 
 ### HOL 10-3: Creating and Using a Process
 
@@ -117,7 +117,7 @@ In this lab, you create a process to insert a record into a table called AUDIT_D
     In the property editor, note that Return Primary Keys) after Insert is **Yes** by default.
     Under Success Message > Success Message: Enter **Project added successfully!**
     Click **Save**.
-    ![](images/3_1b.png)
+    ![](images/10/3_1b.png)
 
 2.	Navigate to SQL Workshop and create the AUDIT_DETAILS table.
     a)	Click **SQL Workshop** and select **SQL Commands**.
@@ -130,14 +130,14 @@ In this lab, you create a process to insert a record into a table called AUDIT_D
         constraint  "AUDIT_DETAILS_PK" primary key ("ID")
     )
     ```
-    ![](images/3_2b.png)
+    ![](images/10/3_2b.png)
     c)	The table is created. Now, navigate to the window or tab of the Budget App application runtime environment.
     In the navigation menu, click **Budget**. 
     Click the Edit icon for a record and then in the Developer Toolbar, click **Edit Page 3**.
 
 3.	Click the **Processing** tab. 
     Navigate to Processing, right-click **Processes** and select **Create Process**.
-    ![](images/3_3.png)
+    ![](images/10/3_3.png)
 
 4.	In the property editor:
     -	Identification > Name: Enter **Audit Details**
@@ -153,12 +153,12 @@ In this lab, you create a process to insert a record into a table called AUDIT_D
     -	Server-side Condition > When Button Pressed: Select **CREATE**
     Click **Save**.
     **Note**: The sequence of this process should be the one immediately after the Process Row of Process form Budget process.
-    ![](images/3_4a.png)
-    ![](images/3_4b.png)
+    ![](images/10/3_4a.png)
+    ![](images/10/3_4b.png)
     Then, click **Save and Run Page**.
 
 5.	Now, you want to verify if the processes are working. In the page designer toolbar, click the Navigate to Previous Page arrow.
-    ![](images/3_5.png)
+    ![](images/10/3_5.png)
 
 6.	Click the **Create** button. 
 
@@ -171,7 +171,7 @@ In this lab, you create a process to insert a record into a table called AUDIT_D
     -	Assigned To: **Pam King**
     -	Cost: **500**
     - 	Budget: **800**
-    ![](images/3_7.png)
+    ![](images/10/3_7.png)
 
 8.	The record is created now. In the Developer Toolbar, click **Home**.
 
@@ -179,7 +179,7 @@ In this lab, you create a process to insert a record into a table called AUDIT_D
     Under Tables, select **AUDIT_DETAILS**. 
     Click **Data**.
     Notice that the user details have been added to the table.
-    ![](images/3_9.png)
+    ![](images/10/3_9.png)
 
 ### HOL 10-4: Creating and Using Validations
 
@@ -192,7 +192,7 @@ In this lab, you create two validations on the Project Budget form page. The fir
 2.	You want to create two validations. The first validation is to ensure that the Project field is not null. 
     In the page designer, click the **Processing** tab.
     Right-click **Validating** and select **Create Validation**.
-    ![](images/4_2.png)
+    ![](images/10/4_2.png)
 
 3.	In the property editor:
     -	Identification > Name: Enter **Project is not null**
@@ -200,7 +200,7 @@ In this lab, you create two validations on the Project Budget form page. The fir
     -	Validation > Item: Select **P3_PROJECT**
     -	Error > Error Message: Enter **Project is not null!**
     -	Error > Display Location: Select **Inline in Notification**
-    ![](images/4_3.png)
+    ![](images/10/4_3.png)
 
 4.	You need to create another validation to ensure that the value entered for Cost should be only numeric.
     Under Processing, right-click **Validating** and select **Create Validation**.
@@ -213,7 +213,7 @@ In this lab, you create two validations on the Project Budget form page. The fir
     -	Error > Display Location: Select **Inline with Field**
     -	Error > Associated Item: Select **P3_COST**
     Click **Save**.
-    ![](images/4_5.png)
+    ![](images/10/4_5.png)
 
 6.	Now, you can test to verify if the validations work. Navigate to the application run time environment. 
     In the navigation menu, click **Budget**.
@@ -227,7 +227,7 @@ In this lab, you create two validations on the Project Budget form page. The fir
     -	Assigned To: **Pam King**
     -	Cost: **abcd12**
     -	Budget: **3000**
-    ![](images/4_7.png)
+    ![](images/10/4_7.png)
     Notice that the errors are displayed. 
     Click **Cancel**.
 
@@ -235,14 +235,14 @@ In this lab, you create two validations on the Project Budget form page. The fir
     Under Rendering, select **P3_COST** and **P3_BUDGET**.
     In the property editor, for Settings > Number Alignment, select **Left**.
     Click **Save**.
-    ![](images/4_8.png)
+    ![](images/10/4_8.png)
 
 9.	Navigate to the application run time environment. 
     In the navigation menu, click **Budget**.
     Then, click the edit icon for any project.
     In the Budget form, now you see that the values in the Cost and Budget fields are left aligned.
-    ![](images/4_9.png)
-    ![](images/last.png)
+    ![](images/10/4_9.png)
+    ![](images/10/last.png)
 
 
 
