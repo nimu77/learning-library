@@ -1,4 +1,4 @@
-![](1a.PNG)
+![](images/overview/1a.PNG)
 # Oracle Application Express: Developing Database Web Applications
 
 ## Hands-On-Labs Guide: Hands-On Overview
@@ -22,4 +22,4 @@ To run these hands-on-labs, you need to:
 - The apex-course-labs.zip file extracted into your working directory.
 The apex-course-labs.zip file includes the scripts required by some of the steps in the hands-on labs.
 
-    ![](last.png)
+    ![](images/overview/last.png)
