@@ -12,47 +12,47 @@ To log in to Oracle Application Express, you need a Workspace name, username, an
     ![](images/1/1b.png)
 
 
-2.	The Workspace home page appears. \
-    Click **App Builder**. \
-    \
+2.	The Workspace home page appears.
+    Click **App Builder**.
+    
     ![](images/1/2.png)
 
 3. 	You do not have any applications listed right now. You can either create a new app or install a sample or productivity app. 
-    Review the **components**. \
+    Review the **components**.
     ![](images/1/3.png)
 
 4. 	Click **SQL Workshop**.  
-    The SQL Workshop home page appears. Review each of the SQL Workshop components. \
+    The SQL Workshop home page appears. Review each of the SQL Workshop components.
     ![](images/1/4.png)
 
-5.	Click **App Gallery**. \
+5.	Click **App Gallery**.
     ![](images/1/5.png)
 
 6.	The App Gallery page displays all of the Productivity and Sample applications.   
-    Click **Sample**. \
+    Click **Sample**.
     ![](images/1/6.png)
 
 7.	Now, you install packaged applications.   
-    Click **Sample Reporting**. \
+    Click **Sample Reporting**.
     ![](images/1/7.png)
 
-8.	Click **Install App**. \
+8.	Click **Install App**.
     ![](images/1/8.png)
 
-9.	Accept the defaults and click **Next**. \
+9.	Accept the defaults and click **Next**.
     ![](images/1/9.png)
 
-10.	Click **Install App**. \
+10.	Click **Install App**.
     ![](images/1/10.png)
 
-11.	Click the **Run** button. \
+11.	Click the **Run** button.
     ![](images/1/11.png)
 
-12.	Log in to the Sample Reporting application. Enter your Username and Password (same as your Workspace credentials) and click **Sign In**. \
+12.	Log in to the Sample Reporting application. Enter your Username and Password (same as your Workspace credentials) and click **Sign In**.
     ![](images/1/12.png)
 
 13.	You now see the Sample Reporting application home page.   
-In the Runtime Developer Toolbar, click **Home**. \
+In the Runtime Developer Toolbar, click **Home**.
     ![](images/1/13.png)
 
 14.	Click **App Builder**. 
