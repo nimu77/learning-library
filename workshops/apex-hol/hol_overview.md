@@ -1,7 +1,4 @@
-![](images/overview/1a.PNG)
-# Oracle Application Express: Developing Database Web Applications
-
-## Hands-On-Labs Guide: Hands-On Overview
+# Hands-On-Labs Guide: Hands-On Overview
 
 This series of hands-on labs is designed to teach you how to build applications using Application Express. The primary vehicle for teaching is a single use case which is expanded on with each lab. 
 
