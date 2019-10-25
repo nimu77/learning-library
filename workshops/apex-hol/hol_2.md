@@ -54,13 +54,13 @@ It is essential to have at least the tables defined in order for the Create Appl
     f)	Scroll down, to view the results.
     ![](images/2/2.f.png)
 
-3. In step 2, you uploaded a package called DEMO_PROJECTS_DATA_PKG. However, this package has not yet been run so the tables you created still do not have any data. The SQL Commands facility, within SQL Workshop, allows a developer to run any valid SQL commands. You will run a SQL command to execute the data package and populate the tables. Use SQL Commands to execute n Oracle Database package. Perform the following steps:
+3. In step 2, you uploaded a package called DEMO_PROJECTS_DATA_PKG. However, this package has not yet been run so the tables you created still do not have any data. The SQL Commands facility, within SQL Workshop, allows a developer to run any valid SQL commands. You will run a SQL command to execute the data package and populate the tables. Use SQL Commands to execute Oracle Database package. Perform the following steps:
 
     a) Click the Up arrow, before SQL Scripts. 
     ![](images/2/3.a.png)
 
     b) Click **SQL Commands**. 
-    ![](images/2/3.b.png)
+    ![](images/2/3.b.PNG)
 
     c) Enter the following code:
     ```
