@@ -36,7 +36,7 @@ To run these hands-on-labs, you need to:
 
 ## Hands-on Overview
 
-**Documentation**: [hol_overview](hol_overview)
+**Documentation**: [hol_overview](hol_overview.md)
 
 ## Unit 1: Getting Started with Oracle Application Express
 
