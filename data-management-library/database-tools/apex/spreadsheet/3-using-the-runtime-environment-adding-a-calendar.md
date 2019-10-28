@@ -11,12 +11,12 @@ TODO.
 
 3. For, Page Name, enter **Calendar**; For Breadcrumb, select **Breadcrumb** and then click **Next**.  
 
-    ![](images/3/breadcrumb.png)
+    ![](images/3/new-create-page.png)
 
 4. Navigation Preference, click **Create a new navigation menu entry** and then click **Next**. 
     ![](images/3/create-a-new-navigation-menu.png) 
 5. For, Table / View Name, select **SPREADSHEET (table)** and then Click **Next**.  
-    ![](images/3/spreadsheet-table.png)
+    ![](images/3/new-calendar-page.png)
 6. For Display Column, select **TASK_NAME**; For End Date Column, select **END_DATE** and then click **Create**.  
     ![](images/3/click-create.png)
 
@@ -31,7 +31,7 @@ TODO.
 
     ![](images/3/update-form.png)
 
-    ![](images/3/new-form-display.png)  
+    ![](images/3/updated-form-display.png)  
     *Note: You may need to navigate to the month of May to see calendar entries.*
 
 ## Summary
