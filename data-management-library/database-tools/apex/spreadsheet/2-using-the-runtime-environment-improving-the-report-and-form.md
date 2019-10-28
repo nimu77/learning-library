@@ -3,11 +3,12 @@
 In this module, you will get first-hand expereience with managing the application by improving the interactive report user experience and form page.
 ### **Part 1**: Basic Interactive Report Enhancement
 Now, that you have created an app. It is time to improve report page for better clarity of data visualization.
-1. If already not on the runtime application, go ahead and click **run application** from the development environment and then, Click **Spreadsheet**.
+1. If already not on the runtime application, go ahead and click **run application** from the development environment and then, Click **Project**.
 2. Click **Actions**, select **Data**, and then select **Sort**.
 3. For 1, select **Start Date**; For 2, select **End Date**; click **Apply**.
 
-    ![](images/2/sort-interactive-report.png)
+    ![](images/2/new-sort-action.png)
+    ![](images/2/new-sort.png)
 
 4. To save the report, click **Actions**, select **Report**, and then select **Save Report**.
 5. For Save, select **As Default Report Settings** .
@@ -49,37 +50,37 @@ In this part, you will further improve interactive report by adding new column b
 ### **Part 3** - Enhance the Form
 TODO.
 1. In the Runtime environment, click the view report icon.
-    ![](images/2/view-report.png)
+    ![](images/2/new-view-report.png)
 2. In the runtime environment, click the edit icon on a record.
-    ![](images/2/edit-icon.png)
+    ![](images/2/new-edit-icon.png)
 3. A modal page will be displayed.
 4. In the Developer Toolbar, click **Quick Edit**.
 
-    ![](images/2/quick-edit-toolbar.png)
+    ![](images/2/new-developer-toolbar.png)
 5. Hover over the **Status** item (until a blue outline appears) and click the mouse.
 6. Page Designer displays with focus on the Status item.
 7. In Page Designer, within the Property Editor (right pane), for Type select **Select List**.
 8. Under List of Values, for Type select **SQL Query**.
 9. Next to SQL Query, click **Code Editor**.
 
-    ![](images/2/code-editor.png)
+    ![](images/2/new-code-editor.png)
 
 10. Within the Code Editor, enter the following:
 
     ```
     select distinct status d, status r
-    from spreadsheet
+    from demo_project
     order by 1        
     ```
 
 11. Click **Validate**, and then Click **OK**.
 
-    ![](images/2/sql-query.png)
+    ![](images/2/new-sql-code.png)
   
 12. Display Extra Values, select **No**.
 13. Null Value Display, enter **- Select Status -**.
 14. Click **Save**.(In the toolbar - top right)  
-    ![](images/2/list-of-values.png)
+    ![](images/2/new-list-of-values.png)
 15. Now, navigate back to the runtime environment and refresh the browser. Click the edit icon, and then click on **Status**.
 
     ![](images/2/new-status.png)
