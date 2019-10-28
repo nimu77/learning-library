@@ -19,9 +19,9 @@ In this module, you will learn how to create an APEX App on top of data imported
 
     ![](images/1/copy-paste-projects-tasks.png)
 
-5.  Review the parsed data. Set Table Name to **SPREADSHEET** and click **Load Data**. Note that the Error Table Name defaults to the Table Name with a postfix of \_ERR$.
+5.  Review the parsed data. Set Table Name to **DEMO_PROJECT** and click **Load Data**. Note that the Error Table Name defaults to the Table Name with a postfix of \_ERR$.
 
-    ![](images/1/load-data.png)
+    ![](images/1/new-table-name.png)
     
     After clicking **Load Data** you will see a spinner until the wizard finished loading. Continue to Part 2 at that point.
 
@@ -29,7 +29,7 @@ In this module, you will learn how to create an APEX App on top of data imported
 
 The Data Load wizard has created a new table and populated that table with the records from the sample data. Now you can create an app based on this new table.
 
-1.  Verify that 73 rows have been loaded into the SPREADSHEET table, then click **Continue to Create Application Wizard**.
+1.  Verify that 73 rows have been loaded into the **DEMO_PROJECT** table, then click **Continue to Create Application Wizard**.
 
     ![](images/1/continue-to-create-application-wizard.png)
 
@@ -47,9 +47,9 @@ The Data Load wizard has created a new table and populated that table with the r
     ![](images/1/run-application.png)
 
 2.  Enter your user credentials and click **Sign In**.
-3.  Explore the application a little. Click **Spreadsheet** (in the home menu or the navigation menu) to view the sample data in a "report" page, then click the edit icon for a record to display the details in an editable "form" page. Next, navigate to the **Dashboard** page and review the charts displayed there. Finally, review the options available under **Administration**.
+3.  Explore the application a little. Click **Project** (in the home menu or the navigation menu) to view the sample data in a "report" page, then click the edit icon for a record to display the details in an editable "form" page. Next, navigate to the **Dashboard** page and review the charts displayed there. Finally, review the options available under **Administration**.
 
-    ![](images/1/review-application.png)
+    ![](images/1/new-app.png)
 
 ## Summary
 
