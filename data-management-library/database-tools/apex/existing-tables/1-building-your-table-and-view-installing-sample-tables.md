@@ -1,6 +1,6 @@
 # Module 1: Building your tables and view - Installing Sample Tables
 In this module, you will install your first sample datasets and review the datasets.
-### **Part 1**: Create EMP and DEPT Tables
+### **Part 1**: Create Sample Project Tables
 TODO.
 1. In the main menu, select **SQL Workshop**, select **Utilities**, and then click **Sample Datasets**.  
 

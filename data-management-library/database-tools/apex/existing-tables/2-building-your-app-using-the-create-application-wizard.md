@@ -1,25 +1,25 @@
 # Module 2: Building your app - Using the Create Application Wizard
 TODO.
 
-### **Part 1**: Build an App
+### **Part 1**: Create an Application
 TODO.
 1. In the App Builder menu, click **App Builder** and then click **Create**.
 2. Click **Create**
-    ![](images/section3/click-create.png)
+    ![](images/2/click-create.png)
 
 3. Click **New Application**.
-    ![](images/section3/new-application.png)
+    ![](images/2/new-application.png)
 4. For Name enter **Projects**, and then click **Appearance Icon**.  
-    ![](images/section3/appearance-icon.png)
+    ![](images/2/appearance-icon.png)
 - For Theme Style select **Vita – Slate**.
 - Click **Choose New Icon**, select the icon color and an icon, click **Set Application Item**, and then click **Save Changes**.
 
-    ![](images/section3/choose-new-icon.png)
+    ![](images/2/choose-new-icon.png)
 
 ### **Part 2**: Add the Dashboard Page
 
 1. Click **Add Page**, and then click **Dashboard**.
-    ![](images/section3/add-page-dashboard.png)
+    ![](images/2/add-page-dashboard.png)
 
 2. For Chart 1, select **Bar**, and then enter the following:
 
@@ -35,24 +35,37 @@ TODO.
    - Label Column – select **NAME**.
    - Value Column – select **BUDGET_V_COST**.
 
-    ![](images/section3/chart-1.png) 
+    ![](images/2/chart-1.png) 
 
-- For Chart 2, enter the following:
+- For Chart 2, slect **Pie**, and then enter the following:
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | Chart Name | enter |**Project Status** |
+    | Table or View | select | **SAMPLE$PROJECTS_V** |
+    | Label Column | select | **Status** |
+    | Type | select | **Count** |
+
    - Chart Type – select **Pie**.
    - Chart Name – enter **Project Status**.
    - Table or View – select **SAMPLE$PROJECTS_V**.
    - Label Column – select **Status**.
    - Type – select **Count**.  
-    ![](images/section3/chart-2.png)  
+    ![](images/2/chart-2.png)  
 
-- For Chart 3, enter the following:
+- For Chart 3, select **Bar**, and then enter the following:
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | Chart Name | enter |**Project Leads** |
+    | Table or View | select | **SAMPLE$PROJECTS_V** |
+    | Label Column | select | **PROJECT_LEAD** |
+    | Type | select | **Count** |
    - Chart Type – select **Bar**.
    - Chart Name – enter **Project Leads**.
    - Table or View – select **SAMPLE$PROJECTS_V**.
    - Label Column – select **PROJECT_LEAD**.
    - Type – select **Count**.
 - Click **Add Page**.  
-    ![](images/section3/chart-3.png)  
+    ![](images/2/chart-3.png)  
 
 ### **Part 3**: Add the Project Page
 
@@ -65,7 +78,7 @@ TODO.
    - Additional Text - select **PROJECT_LEAD**.
 3. Click **Add Page**.
 
-    ![](images/section3/add-page-project.png) 
+    ![](images/2/add-page-project.png) 
 
 ### **Part 4**: Add the Milestone Page
 
@@ -77,7 +90,7 @@ TODO.
   - Lookup Key 1 - select **PROJECT_ID**.
   - Display Col 1 - select **SAMPLE$PROJECTS.NAME**.
 3. Click **Add Page**.  
-    ![](images/section3/add-page-milestone.png)
+    ![](images/2/add-page-milestone.png)
 
 ### **Part 5**: Add the Task Pages
 
@@ -91,7 +104,7 @@ TODO.
   - Lookup Key 2 - select **MILESTONE_ID**. 
   - Display Col 2 - select **SAMPLE$PROJECT_MILESTONES.NAME**.
 3. Click **Add Page**.  
-    ![](images/section3/add-page-tasks.png)
+    ![](images/2/add-page-tasks.png)
 
 ### **Part 6**: Add a Calendar Page
 
@@ -103,17 +116,17 @@ TODO.
   - Start Date Column - select **START_DATE**.
   - End Date Column - select **END_DATE**.
 3. Click **Add Page**.  
-    ![](images/section3/add-page-calendar.png)
+    ![](images/2/add-page-calendar.png)
 
 ### **Part 7**: Include All Features
 
 1. Next to Features, click **Check All**, and then click **Create Application**. 
-    ![](images/section3/check-all.png)
+    ![](images/2/check-all.png)
     Once, you click **Create Application**, your new application will be displayed in Page Designer.
 2. Click **Run Application**.
-    ![](images/section3/run-application.png)
+    ![](images/2/run-application.png)
 3. Enter your user credentials, and play around with your new application.
 
-    ![](images/section3/runtime-app.png)
+    ![](images/2/runtime-app.png)
 
 TODO. [Click here to navigate to Module 3](3-recreating-the-app-improving-the-generated-app.md)  
