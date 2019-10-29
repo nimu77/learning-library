@@ -1,6 +1,6 @@
 # Module 2: Creating an app on the tables from Quick SQL - Using the Create Application Wizard
 
-### **Part 2.1** – Start the Create App Wizard
+### **Part 1** – Start the Create App Wizard
 
 - Click **Create App** from Script
 
@@ -12,7 +12,7 @@ App from Script” button perform the following steps*:
 
 *The results page shown above should now be displayed again}*
 
-### **Part 2.2** – Name the App and Update Appearance
+### **Part 2** – Name the App and Update Appearance
 
 - For Name, enter **Projects**
 - Click **Appearance**
@@ -20,28 +20,32 @@ App from Script” button perform the following steps*:
 
 ![](https://i.imgur.com/EOCdLPq.png[/img])
 
-### **Part 2.3** – Add Features
+### **Part 3** – Add Features
 
 - For Features, click **Check All**
 
 ![](https://i.imgur.com/4ZadDjE.png[/img])
 
-### **Part 2.4** - Create Application
+### **Part 4** - Create Application
 
 - Click **Create Application**
 
 ![](https://i.imgur.com/P9SETCW.png[/img])
 
-### **Part 2.5** – App in Page Designer
+### **Part 5** – App in Page Designer
 
 - Your new application will be displayed in Page Designer
 - Click **Run Application**
 
 ![](https://i.imgur.com/gwEA0V5.png[/img])
 
-### **Part 2.6** - Runtime App
+### **Part 6** - Runtime App
 
 - Enter your **credentials**
 - Play around with your new application
 
 ![](https://i.imgur.com/Zsgy9GN.png[/img])
+
+## Summary
+
+TODO. [Click here to navigate to Module 3](3-improving-the-app-updating-a-page.md)

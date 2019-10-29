@@ -59,11 +59,13 @@ TODO.
     | Table or View | select | **SAMPLE$PROJECTS_V** |
     | Label Column | select | **PROJECT_LEAD** |
     | Type | select | **Count** |
+    
    - Chart Type – select **Bar**.
    - Chart Name – enter **Project Leads**.
    - Table or View – select **SAMPLE$PROJECTS_V**.
    - Label Column – select **PROJECT_LEAD**.
    - Type – select **Count**.
+
 - Click **Add Page**.  
     ![](images/2/chart-3.png)  
 

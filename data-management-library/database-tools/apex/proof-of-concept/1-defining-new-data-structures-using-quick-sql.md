@@ -1,4 +1,4 @@
-# Module 2: Defining new data structures - Using Quick SQL
+# Module 1: Defining new data structures - Using Quick SQL
 
 ## Oracle Spreadsheet Table
 ![](https://i.imgur.com/8TkzNms.png[/img])
@@ -6,7 +6,7 @@
 ## Napkin Design - Improved data model for Projects
 ![](https://i.imgur.com/l8LEEtn.png[/img])
 
-### **Part 2.1** - Open Quick SQL
+### **Part 1** - Open Quick SQL
 - Log into your workspace
 - Click **SQL Workshop**
 - Click **SQL Scripts**
@@ -14,7 +14,7 @@
 - Click **Quick SQL**
 ![](https://i.imgur.com/Gdublvv.png[/img])
 
-### **Part 2.2**: Enter shorthand for Team Members table
+### **Part 2**: Enter shorthand for Team Members table
 - Enter the Table Name {Team Members}
 - Indent 2 or more spaces and enter the column names
 
@@ -22,13 +22,13 @@
 *Note: You don’t need to enter all of the column names shown,
 as you will load a complete script later in this lesson*
 
-### **Part 2.3**: Enter details for Projects table
+### **Part 3**: Enter details for Projects table
 - Enter the Table Name in the first column {Projects}
 - Indent 2 or more spaces and enter the column names
 
 ![](https://i.imgur.com/jtu2T6K.png[/img])
 
-### **Part 2.4**: Review Help
+### **Part 4**: Review Help
 
 - Click **Help**
 - Click **Table Directives**
@@ -43,7 +43,7 @@ as you will load a complete script later in this lesson*
 
 ![](https://i.imgur.com/6p8xUN6.png[/img])
 
-### **Part 2.5**: Improve the Shorthand
+### **Part 5**: Improve the Shorthand
 
 - Close **Help**
 - Enter **/insert xx** for tables
@@ -56,7 +56,7 @@ status column
 
 ![](https://i.imgur.com/C6zTGtJ.png[/img])
 
-### **Part 2.6**: Enter details for a child table
+### **Part 6**: Enter details for a child table
 
 - Enter the Table Name indented
 {Milestones}  
@@ -66,7 +66,7 @@ status column
 enter the column names  
 ![](https://i.imgur.com/qt8TUXO.png[/img])
 
-### **Part 2.7**: Enter details for another child table
+### **Part 7**: Enter details for another child table
 
 - Enter the Table Name indented
 {Tasks}
@@ -75,7 +75,7 @@ enter the column names
 
 ![](https://i.imgur.com/VYYEL8e.png[/img])
 
-### **Part 2.8**: Complete the Shorthand
+### **Part 8**: Complete the Shorthand
 
 - Copy the following URL into a new window in your browser:
 {Remember you are on Part 2.10 if you click the link directly}  
@@ -86,7 +86,7 @@ into the **Quick SQL Shorthand pane**
 
 ![](https://i.imgur.com/9lW6S17.png[/img])
 
-### **Part 2.9**: Update the Settings
+### **Part 9**: Update the Settings
 
 - Click **Settings**
 - Object Prefix, enter **hol**
@@ -99,7 +99,7 @@ into the **Quick SQL Shorthand pane**
 
 ![](https://i.imgur.com/nZVvx71.png[/img])
 
-### **Part 2.10**: Save, Review, and Run the Script
+### **Part 10**: Save, Review, and Run the Script
 
 - Click **Save SQL Script**
 - For Script Name, enter **hol**
@@ -112,3 +112,7 @@ the Script Editor within SQL Scripts*
 - Click **Run**
 - Click **Run Now**  
 ![](https://i.imgur.com/CyYXjko.png[/img])
+
+## Summary.
+
+TODO. [Click here to navigate to Module 2](2-creating-an-app-on-the-tables-from-quick-sql-using-the-create-application-wizard.md)
