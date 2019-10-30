@@ -24,47 +24,44 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 - Click **Web Source Modules**
 - From Web Source Modules, click **Create**
 - Click **Next** {Default: From Scratch}
-- For Web Source Type,
-select **ORACLE REST Data Services**
-- For Name
-enter **REST DEPT Source**
-- For URL Endpoint
-enter the REST URI for the dept.rest handler
-{Similar to https://<<your service>>/dpeake_rest/**dept**/hol/ }
+- For Web Source Type, select **ORACLE REST Data Services**
+- For Name enter **REST DEPT Source**
+- For URL Endpoint, enter the REST URI for the dept.rest handler
+*Similar to https://<< your service >>/dpeake_rest/**dept**/hol/*
 - Click **Next**
 
-    ![](https://i.imgur.com/LrWVF2Y.png[/img])
+    ![](images/5/web-source-type.png)
 
 - Review the Base URL and Service URL Path
 - Click **Next**
 - Click **Discover**
-{Authentication Required = No}
+*Authentication Required = No*
 - Click **Create Web Source**
 
-    ![](https://i.imgur.com/eoah4Nm.png[/img])
+    ![](images/5/create-web-source.png)
 
 ### **Part 2**: Adding a Function to call DEPT
 
 - In the main menu, select **SQL Workshop**, click **SQL Scripts**  
-    ![](https://i.imgur.com/w0xMS99.png[/img])
+    ![](images/5/select-sql-scripts.png)
 
 - Click **Create**  
-    ![](https://i.imgur.com/NfzD7se.png[/img])
+    ![](images/5/click-create.png)
 
 - Copy the following URL into a new window in your browser:  
-  *{Remember you are on Slide 54 if you click the link directly}*
+  *Remember you are on Slide 54 if you click the link directly*
   http://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-hol-func-5478627.txt
 
 - In the Script Editor:
   - Enter Script Name = **DEPT Function**
   - Paste the contents of the file into the body
   - Click **Run**  
-    ![](https://i.imgur.com/87Qgaxw.png[/img])
+    ![](images/5/type-script-name.png)
 
 - Click **Run Now**
 
 - Results should show 3 statements processed successfully
-    ![](https://i.imgur.com/lPSoev5.png[/img])
+    ![](images/5/result-shown.png)
 
 ### **Part 3**: Add the List of Values
 
@@ -73,7 +70,7 @@ enter the REST URI for the dept.rest handler
 - Click **Shared Components**
 - Click **List of Values**
 
-    ![](https://i.imgur.com/UkQjFmr.png[/img])
+    ![](images/5/list-of-values.png)
 
 - Click **Create**
 - Click **Next** {Default: From Scratch}
@@ -81,17 +78,17 @@ enter the REST URI for the dept.rest handler
 - For Type, select **Dynamic**
 - Click **Next**
 
-    ![](https://i.imgur.com/WFWo6JQ.png[/img])
+    ![](images/5/name-and-type.png)
 
 - For Query enter  
-```
+    ```
       select dname as d,
              deptno as r
         from table ( dept_rest )
       order by 1
-```
+    ```
 
-![](https://i.imgur.com/zFmY9te.png[/img])  
+![](images/5/click-create-list-of-values.png)  
 *Note: dept_rest is the name of the function created in the previous step*
 - Click **Create List of Values**
 
@@ -100,7 +97,7 @@ enter the REST URI for the dept.rest handler
 - Click on **Application xxxxx** in the breadcrumbs
 - Click 2 - **Employees**
 
-    ![](https://i.imgur.com/Lw2g71v.png[/img])
+    ![](images/5/click-application-xxxx.png)
 
 
 - In the Rendering tree (left pane), click Columns, click **DEPTNO**  
@@ -111,11 +108,11 @@ enter the REST URI for the dept.rest handler
    - For Layout > Column Alignment, click **Start**
 - In the toolbar, click **Save**
 
-    ![](https://i.imgur.com/k6cZaM5.png[/img])
+    ![](images/5/update-column.png)
 
 - Navigate to Page 3
 
-![](https://i.imgur.com/QvU32sQ.png[/img])
+    ![](images/5/navigate-page.png)
 - In the Rendering tree (left pane), click **P3_DEPTNO**
 - In the Property Editor (right pane)
   - For Type, select **Select List** 
@@ -125,19 +122,19 @@ enter the REST URI for the dept.rest handler
   - For Display Null Value, click **No**
 - In the toolbar, click **Save**  
 
-    ![](https://i.imgur.com/crGAkYz.png[/img])
+    ![](images/5/update-property.png)
 
 ### **Part 5**: Run the Application
 
 - Navigate to the application Runtime Environment
 - Refresh your browser
 
-    ![](https://i.imgur.com/5gaYlXS.png[/img])
+    ![](images/5/navigate-to-runtime.png)
 
 - Click on the edit icon for any record
 - Select a department
 
-    ![](https://i.imgur.com/GEfeilw.png[/img])
+    ![](images/5/select-list.png)
 
 ## Summary
 
