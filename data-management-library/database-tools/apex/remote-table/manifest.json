@@ -1,0 +1,43 @@
+{
+  "lab": {
+    "title": "Building an App based on RESTful Services for Oracle Autonomous Cloud Service",
+    "modules": [
+      {
+        "filename": "README.md",
+        "title": "Lab Introduction"
+      },
+      {
+        "filename": "1-building-your-table-using-quick-sql.md",
+        "title": "Module 1: Building your Table - Using Quick SQL"
+      },
+      {
+          "filename": "2-creating-an-app-on-the-tables-from-quick-sql-using-the-create-application-wizard.md",
+          "title": "Module 2: Creating an app on the tables from Quick SQL - Using the Create Application Wizard"
+      },
+      {
+        "filename": "3-using-the-apex-data-parser-populating-the-table.md",
+        "title": "Module 3: Using the APEX_DATA_PARSER - Populating the Table"
+      },
+      {
+        "filename": "4-modifying-the-interactive-report-sql-improving-the-report.md",
+        "title": "Module 4: Modifying the Interactive Report SQL - Improving the Report"
+      },
+      {
+        "filename": "5-updating-the-report-in-the-runtime-environment-updating-the-report-view.md",
+        "title": "Module 5: Updating the Report in the Runtime environment - Updating the Report View"
+      },
+      {
+        "filename": "6-adding-a-chart-for-a-single-country-adding-a-chart.md",
+        "title": "Module 6: Adding a Chart for a single Country - Adding a Chart"
+      },
+      {
+        "filename": "7-updating-chart-attributes-improving-the-chart.md",
+        "title": "Module 7: Updating chart attributes - Improving the Chart"
+      },
+      {
+        "filename": "8-adding-a-page-item-and-list-of-values-adding-a-country-list.md",
+        "title": "Module 8: Adding a Page Item and List of Values - Adding a Country List"
+      }
+    ]
+  }
+}
