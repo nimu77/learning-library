@@ -10,7 +10,7 @@ TODO.
 
 | # | Module | Est. Time |
 | --- | --- | --- |
-| 1 | [Creating a Sample Tables and REST Enabling](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md) | 4 min |
+| 1 | [Creating a Sample Tables and REST Enabling](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md) | 8 min |
 | 2 | [Creating the App](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md) | 10 min |
 | 3 | [Adding a Web Source for EMP](3-linking-the-rest-service-defined-in-the-first-workspace-adding-a-web-source-for-emp.md) | 5 min |
 | 4 | [Creating Pages](4-defining-the-report-and-form-on-emp-creating-pages.md) | 5 min |

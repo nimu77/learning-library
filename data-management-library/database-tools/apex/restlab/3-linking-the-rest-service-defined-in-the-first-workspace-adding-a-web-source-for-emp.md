@@ -7,11 +7,10 @@
 - Under **Data Sources**, click **Web Source Modules**  
     ![](images/3/web-source-modules.png)
 - Click **Create**
-- Click **Next** {Default: From Scratch}
-- For Web Source Type,
-select **ORACLE REST Data Services**
-- For Name
-enter **REST EMP Source**
+- Click **Next** 
+    *Default: From Scratch*
+- For Web Source Type, select **ORACLE REST Data Services**
+- For Name enter **REST EMP Source**
 - For URL Endpoint, enter the REST URI you tested previously
     *Similar to https://<< your service >>/dpeake_rest/emp/hol/*
 - Click **Next**
@@ -21,7 +20,7 @@ enter **REST EMP Source**
 - Review the Base URL and Service URL Path
 - Click **Next**
 - Click **Discover**
-{Authentication Required = No}
+    *Authentication Required = No*
 - Click **Create Web Source**
 
     ![](images/3/create-web-source.png)

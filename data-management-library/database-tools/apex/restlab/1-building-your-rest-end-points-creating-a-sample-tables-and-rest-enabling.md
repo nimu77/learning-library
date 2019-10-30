@@ -39,7 +39,7 @@ In the Script Editor:
 ### **Part 4**: Reviewing the REST Services
 
 - In the main menu, select **SQL Workshop**, click **RESTful Services**
-- Expand **Modules**; Expand **emp.rest**; Click on **GET**
+- Expand **Modules**; Expand **emp.rest**; Expand **hol/**, and then click on **GET**
     ![](images/1/copy-url.png)
 - Copy the Full URL into your clipboard
 
