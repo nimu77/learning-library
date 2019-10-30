@@ -65,25 +65,15 @@ the **Milestones – Interactive Grid** page
     ![](images/3/update-column.png)
 
 - In the Property Editor, update the following:
-   - Identification: Type – select **Select List**
-   - Heading: Heading – enter **Project**
-   - List of Values: Type – select **Shared Component**
-   - List of Values – select **HOL_TASKS.PROJECT_ID.LOOKUP**
-   - Display Extra Values – click **No**
-   - Display Null Value – click **No**  
-    ![](images/3/.png)  - #need a new picture
-- Save and Run the App
-
-- In the Property Editor, update the following:
   - Identification: Type – select **Select List**
   - Heading: Heading – enter **Project**
   - List of Values: Type – select **SQL Query**
   - List of Values – SQL Query enter 
-  ~~~~sql
-  select name d, id r 
-  from hol_projects 
-  order by 1
-  ~~~~
+    ```
+    select name d, id r 
+    from hol_projects 
+    order by 1
+    ```
   - Display Extra Values – click **No**
   - Display Null Value – click **No**   
     ![](images/3/update-and-save.png)

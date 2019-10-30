@@ -3,7 +3,7 @@
 ### **Part 1**: Log into your Second Workspace
 
 - In the top toolbar, click your user name, then click **Sign Out**  
-    ![](https://i.imgur.com/TMfZgGM.png[/img])
+    ![](images/2/sign-out.png)
 - Click **Return to Sign in Page**
 - Log into your second workspace  
   *{ first initial || last name || _HOL , for example DPEAKE_HOL}*
@@ -12,13 +12,13 @@
 
 - Click **App Builder**
 - Click **Create**  
-    ![](https://i.imgur.com/kiNDCkK.png[/img])
+    ![](images/2/click-create.png)
 - Click **New Application**  
-    ![](https://i.imgur.com/2lG1hQ6.png[/img])
+    ![](images/2/new-application.png)
 - For Name, enter **REST Employees**
 - Click **Create Application**
 
-    ![](https://i.imgur.com/7qq1RjM.png[/img])
+    ![](images/2/click-create-application.png)
 
 ## Summary
 

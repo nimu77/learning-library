@@ -5,12 +5,12 @@
 - Log back into your first workspace
 - In the main menu, select **SQL Workshop**, select **Utilities**, click **Sample Datasets** 
 
-    ![](https://i.imgur.com/XRYqaW0.png[/img])
+    ![](images/1/sample-datasets.png)
 
 ### **Part 2**: Creating the EMP and DEPT Tables
 
 - On the EMP /DEPT row, click **Install**  
-![](https://i.imgur.com/6eHtmjz.png[/img])
+![](images/1/install-emp-dept.png)
 - Click **Next**
 - Click **Install Dataset**
 - Click **Exit**  
@@ -19,9 +19,9 @@
 ### **Part 3**: REST Enabling the tables
 
 - In the main menu, select **SQL Workshop**, click **SQL Scripts**  
-    ![](https://i.imgur.com/L6PC9Yk.png[/img])
+    ![](images/1/select-sql-script.png)
 - Click **Create**  
-![](https://i.imgur.com/Rcb2Iqh.png[/img])
+    ![](images/1/click-create.png)
 - Copy the following URL into a new window in your browser:
 http://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-hol-rest-enable-5478504.txt
 
@@ -30,17 +30,17 @@ In the Script Editor:
   -  Paste the contents of the file into the body
   - Click Run
 
-    ![](https://i.imgur.com/1Z7M2XB.png[/img])
+    ![](images/1/script-name.png)
 - Click **Run Now**
 - Results should show 4 statements processed successfully
 
-    ![](https://i.imgur.com/7UPlFTY.png[/img])
+    ![](images/1/scripts-created.png)
 
 ### **Part 4**: Reviewing the REST Services
 
 - In the main menu, select **SQL Workshop**, click **RESTful Services**
 - Expand **Modules**; Expand **emp.rest**; Click on **GET**
-    ![](https://i.imgur.com/iYNYF9N.png[/img])
+    ![](images/1/copy-url.png)
 - Copy the Full URL into your clipboard
 
 ### **Part 5**: Testing a REST Service
@@ -48,7 +48,7 @@ In the Script Editor:
 - Open a new tab / window in your browser
 - Paste the Full URL
 
-    ![](https://i.imgur.com/WXkqBAB.png[/img])
+    ![](images/1/open-url.png)
 
 ## Information
 Running the SQL Script in Step 3 above REST Enables the schema and also creates modules for the EMP and DEPT tables and the EMP_DEPT_V view, together with the appropriate handlers.

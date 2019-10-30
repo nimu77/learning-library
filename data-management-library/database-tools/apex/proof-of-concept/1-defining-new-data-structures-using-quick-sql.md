@@ -14,7 +14,7 @@
 - Click **Quick SQL**
     ![](images/1/quick-sql.png)
 
-### **Part 2**: Enter shorthand for Team Members table
+### **Part 2**: Enter shorthand for Team Members table 
 - Enter the Table Name **Team Members**
 - Indent 2 or more spaces and enter the column names
 
@@ -23,7 +23,7 @@
 as you will load a complete script later in this lesson*
 
 ### **Part 3**: Enter details for Projects table
-- Enter the Table Name in the first column {Projects}
+- Enter the Table Name in the first column **Project**
 - Indent 2 or more spaces and enter the column names
 
     ![](images/1/project-table-shorthand.png)
@@ -58,8 +58,7 @@ status column
 
 ### **Part 6**: Enter details for a child table
 
-- Enter the Table Name indented
-{Milestones}  
+- Enter the Table Name indented **Milestones**
     ![](images/1/child-table.png)
 
 - Indent 2 or more spaces and
@@ -68,17 +67,15 @@ enter the column names
 
 ### **Part 7**: Enter details for another child table
 
-- Enter the Table Name indented
-{Tasks}
-- Indent 2 or more spaces and
-enter the column names
+- Enter the Table Name indented **Tasks**
+- Indent 2 or more spaces and enter the column names
 
     ![](images/1/another-child-table.png)
 
 ### **Part 8**: Complete the Shorthand
 
 - Copy the following URL into a new window in your browser:
-*Remember you are on Part 2.10 if you click the link directly*  
+*Remember you are on Part 8 if you click the link directly*  
 https://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-beginner-quicksql-5095785.txt
 - Copy and Paste the full script
 into the **Quick SQL Shorthand pane**
