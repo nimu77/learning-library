@@ -1,24 +1,24 @@
 # Module 1: Defining new data structures - Using Quick SQL
 
 ## Oracle Spreadsheet Table
-![](https://i.imgur.com/8TkzNms.png[/img])
+![](images/1/oracle-spreadsheet-table.png)
 
-## Napkin Design - Improved data model for Projects
-![](https://i.imgur.com/l8LEEtn.png[/img])
+## Napkin Design: Improved data model for Projects
+![](images/1/napkin-design.png)
 
-### **Part 1** - Open Quick SQL
+### **Part 1**: Open Quick SQL
 - Log into your workspace
 - Click **SQL Workshop**
 - Click **SQL Scripts**
-![](https://i.imgur.com/4TBd8Rf.png[/img])
+    ![](images/1/sql-scripts.png)
 - Click **Quick SQL**
-![](https://i.imgur.com/Gdublvv.png[/img])
+    ![](images/1/quick-sql.png)
 
 ### **Part 2**: Enter shorthand for Team Members table
-- Enter the Table Name {Team Members}
+- Enter the Table Name **Team Members**
 - Indent 2 or more spaces and enter the column names
 
-![](https://i.imgur.com/CulnRgR.png[/img])  
+    ![](images/1/create-table-shorthand.png)  
 *Note: You don’t need to enter all of the column names shown,
 as you will load a complete script later in this lesson*
 
@@ -26,22 +26,22 @@ as you will load a complete script later in this lesson*
 - Enter the Table Name in the first column {Projects}
 - Indent 2 or more spaces and enter the column names
 
-![](https://i.imgur.com/jtu2T6K.png[/img])
+    ![](images/1/project-table-shorthand.png)
 
 ### **Part 4**: Review Help
 
 - Click **Help**
 - Click **Table Directives**
 
-![](https://i.imgur.com/55CTUHD.png[/img])
+    ![](images/1/review-table-directives.png)
 
 - Click **Column Directives**
 
-![](https://i.imgur.com/pV4Sw3X.png[/img])
+    ![](images/1/review-column-directives.png)
 
 - Click **Data Types**
 
-![](https://i.imgur.com/6p8xUN6.png[/img])
+    ![](images/1/review-data-types.png)
 
 ### **Part 5**: Improve the Shorthand
 
@@ -54,17 +54,17 @@ as you will load a complete script later in this lesson*
 IN-PROGRESS, COMPLETED** for
 status column
 
-![](https://i.imgur.com/C6zTGtJ.png[/img])
+    ![](images/1/improve-shorthand.png)
 
 ### **Part 6**: Enter details for a child table
 
 - Enter the Table Name indented
 {Milestones}  
-![](https://i.imgur.com/IEYZU5c.png[/img])
+    ![](images/1/child-table.png)
 
 - Indent 2 or more spaces and
 enter the column names  
-![](https://i.imgur.com/qt8TUXO.png[/img])
+    ![](images/1/column-names-child-table.png)
 
 ### **Part 7**: Enter details for another child table
 
@@ -73,18 +73,18 @@ enter the column names
 - Indent 2 or more spaces and
 enter the column names
 
-![](https://i.imgur.com/VYYEL8e.png[/img])
+    ![](images/1/another-child-table.png)
 
 ### **Part 8**: Complete the Shorthand
 
 - Copy the following URL into a new window in your browser:
-{Remember you are on Part 2.10 if you click the link directly}  
+*Remember you are on Part 2.10 if you click the link directly*  
 https://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-beginner-quicksql-5095785.txt
 - Copy and Paste the full script
 into the **Quick SQL Shorthand pane**
 - Click **Generate SQL**
 
-![](https://i.imgur.com/9lW6S17.png[/img])
+    ![](images/1/generate-sql.png)
 
 ### **Part 9**: Update the Settings
 
@@ -97,7 +97,7 @@ into the **Quick SQL Shorthand pane**
 - Row Version Number, check Include
 - Click **Save Changes**
 
-![](https://i.imgur.com/nZVvx71.png[/img])
+    ![](images/1/update-settings.png)
 
 ### **Part 10**: Save, Review, and Run the Script
 
@@ -106,12 +106,12 @@ into the **Quick SQL Shorthand pane**
 - Click **Save Script**
 - Click **Review** and **Run**
 
-![](https://i.imgur.com/e2I6k3z.png[/img])  
+    ![](images/1/save-script.png)  
 *Note: The script will be displayed in
 the Script Editor within SQL Scripts*
 - Click **Run**
 - Click **Run Now**  
-![](https://i.imgur.com/CyYXjko.png[/img])
+    ![](images/1/run-script.png)
 
 ## Summary.
 
