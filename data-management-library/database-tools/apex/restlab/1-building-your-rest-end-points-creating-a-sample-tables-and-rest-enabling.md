@@ -2,51 +2,51 @@
 
 ### **Part 1**: Logging In
 
-- Log back into your first workspace
-- In the main menu, select **SQL Workshop**, select **Utilities**, click **Sample Datasets** 
+1. Log back into your first workspace
+2. In the main menu, select **SQL Workshop**, select **Utilities**, click **Sample Datasets** 
 
     ![](images/1/sample-datasets.png)
 
 ### **Part 2**: Creating the EMP and DEPT Tables
 
-- On the EMP /DEPT row, click **Install**  
-![](images/1/install-emp-dept.png)
-- Click **Next**
-- Click **Install Dataset**
-- Click **Exit**  
+1. On the EMP /DEPT row, click **Install**  
+    ![](images/1/install-emp-dept.png)
+2. Click **Next**
+3. Click **Install Dataset**
+4. Click **Exit**  
   *We do not want to create an application directly on the tables*
 
 ### **Part 3**: REST Enabling the tables
 
-- In the main menu, select **SQL Workshop**, click **SQL Scripts**  
+1. In the main menu, select **SQL Workshop**, click **SQL Scripts**  
     ![](images/1/select-sql-script.png)
-- Click **Create**  
+2. Click **Create**  
     ![](images/1/click-create.png)
-- Copy the following URL into a new window in your browser:
+3. Copy the following URL into a new window in your browser:
 http://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-hol-rest-enable-5478504.txt
 
-In the Script Editor:
-  - Enter Script Name = **Manual REST on EMP and DEPT**
-  -  Paste the contents of the file into the body
-  - Click Run
+4. In the Script Editor:
+    - Enter Script Name = **Manual REST on EMP and DEPT**
+    -  Paste the contents of the file into the body
+    - Click Run
 
     ![](images/1/script-name.png)
-- Click **Run Now**
-- Results should show 4 statements processed successfully
+    - Click **Run Now**
+    - Results should show 4 statements processed successfully
 
     ![](images/1/scripts-created.png)
 
 ### **Part 4**: Reviewing the REST Services
 
-- In the main menu, select **SQL Workshop**, click **RESTful Services**
-- Expand **Modules**; Expand **emp.rest**; Expand **hol/**, and then click on **GET**
+1. In the main menu, select **SQL Workshop**, click **RESTful Services**
+2. Expand **Modules**; Expand **emp.rest**; Expand **hol/**, and then click on **GET**
     ![](images/1/copy-url.png)
-- Copy the Full URL into your clipboard
+3. Copy the Full URL into your clipboard
 
 ### **Part 5**: Testing a REST Service
 
-- Open a new tab / window in your browser
-- Paste the Full URL
+1. Open a new tab / window in your browser
+2. Paste the Full URL
 
     ![](images/1/open-url.png)
 
