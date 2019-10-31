@@ -4,9 +4,9 @@
 
 1. In the top toolbar, click your user name, then click **Sign Out**  
     ![](images/2/sign-out.png)
-2. Click **Return to Sign in Page**
-3. Log into your second workspace  
-  *{ first initial || last name || _HOL , for example DPEAKE_HOL}*
+2. Go back to your Oracle cloud account, and navigate to second autonomous database that you created in the beginning of this lab.
+3. Navigate, to Oracle APEX, and Log into your Second Workspace.
+*Note: This is the second Autonomous Database, and you are logging in to workspace with its credentials.
 
 ### **Part 2**: Create an App  
 
