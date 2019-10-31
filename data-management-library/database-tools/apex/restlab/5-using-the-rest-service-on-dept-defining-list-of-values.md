@@ -13,26 +13,24 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ### **Part 1**: Add Web Source for DEPT
 
-1. Return to the Application Builder
-2. Go to the App Builder Home Page
-3. Select your application
-4. Click **Shared Components**
-5. Click **Web Source Modules**
-6. From Web Source Modules, click **Create**
-7. Click **Next** {Default: From Scratch}
-8. For Web Source Type, select **ORACLE REST Data Services**
-9. For Name enter **REST DEPT Source**
-10. For URL Endpoint, enter the REST URI for the dept.rest handler
+1. Return to the Application Builder.
+2. Go to the App Builder Home Page and select your application.
+3. Click **Shared Components**.
+4. Under Data Sources, Click **Web Source Modules**.
+5. From Web Source Modules, click **Create**.
+6. Click **Next**.
+    *Default: From Scratch*
+7. For Web Source Type, select **ORACLE REST Data Services**.
+8. For Name enter **REST DEPT Source**
+9. For URL Endpoint, enter the REST URI for the dept.rest handler, and then click **Next**.
 *Similar to https://<< your service >>/dpeake_rest/**dept**/hol/*
-11. Click **Next**
 
     ![](images/5/web-source-type.png)
 
-12. Review the Base URL and Service URL Path
-13. Click **Next**
-14. Click **Discover**
+10. Review the Base URL, Service URL Path, and then click **Next**.
+11. Click **Discover**.
 *Authentication Required = No*
-15. Click **Create Web Source**
+12. Click **Create Web Source**.
 
     ![](images/5/create-web-source.png)
 
@@ -60,23 +58,20 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ### **Part 3**: Add the List of Values
 
-1. Return to App Builder
-2. Select your application
-3. Click **Shared Components**
-4. Click **List of Values**
+1. Return to App Builder and select your application.
+2. Click **Shared Components**; Click **List of Values**.
 
     ![](images/5/list-of-values.png)
 
-5. Click **Create**
-6. Click **Next** 
-*Default: From Scratch*
-7. For Name, enter **DEPT LOV**
-8. For Type, select **Dynamic**
-9. Click **Next**
+3. Click **Create**, and then click **Next**.
+*For, create list of values, keep Default: From Scratch*
+4. For Name, enter **DEPT LOV**.
+5. For Type, select **Dynamic**.
+6. Click **Next**.
 
     ![](images/5/name-and-type.png)
 
-10. For Query enter  
+7. For Query enter  
     ```
       select dname as d,
              deptno as r
@@ -86,49 +81,46 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
     ![](images/5/click-create-list-of-values.png)  
     *Note: dept_rest is the name of the function created in the previous step*
-11. Click **Create List of Values**
+8. Click **Create List of Values**.
 
 ### **Part 4**: Update the EMP Pages
 
-1. Click on **Application xxxxx** in the breadcrumbs
-2. Click 2 - **Employees**
+1. Click on **Application xxxxx** in the breadcrumb, and then click **2 - Employees**
 
     ![](images/5/click-application-xxxx.png)
 
 
-3. In the Rendering tree (left pane), click Columns, click **DEPTNO**  
-4.  In the Property Editor (right pane)
-    - For Type, select **Plain Text (based on List of Values)** 
-    - For List of Values, select **DEPT LOV** 
-    - For Heading > Alignment, click **Start** 
-    - For Layout > Column Alignment, click **Start**
+2. In the Rendering tree (left pane), click **Columns**, and then click **DEPTNO**.  
+    - In the Property Editor (right pane)
+        - For Type, select **Plain Text (based on List of Values)** 
+        - For List of Values, select **DEPT LOV** 
+        - For Heading > Alignment, click **Start** 
+        - For Layout > Column Alignment, click **Start**
     - In the toolbar, click **Save**
 
     ![](images/5/update-column.png)
 
-5. Navigate to Page 3
+3. Navigate to Page **3**.
 
     ![](images/5/navigate-page.png)
-6. In the Rendering tree (left pane), click **P3_DEPTNO**
-7. In the Property Editor (right pane)
-    - For Type, select **Select List** 
-    - For List of Values > Type, select **Shared Component** 
-    - For List of Values, select **DEPT LOV** 
-    - For Display Extra Values, click **No** 
-    - For Display Null Value, click **No**
+4. In the Rendering tree (left pane), click **P3_DEPTNO**.
+    - In the Property Editor (right pane).
+        - For Type, select **Select List** 
+        - For List of Values > Type, select **Shared Component** 
+        - For List of Values, select **DEPT LOV** 
+        - For Display Extra Values, click **No** 
+        - For Display Null Value, click **No**
     - In the toolbar, click **Save**  
 
     ![](images/5/update-property.png)
 
 ### **Part 5**: Run the Application
 
-1. Navigate to the application Runtime Environment
-2. Refresh your browser
+1. Navigate to the application Runtime Environment and refresh your browser.
 
     ![](images/5/navigate-to-runtime.png)
 
-3. Click on the edit icon for any record
-4. Select a department
+2. Click on the edit icon for any record, and select a department.
 
     ![](images/5/select-list.png)
 
