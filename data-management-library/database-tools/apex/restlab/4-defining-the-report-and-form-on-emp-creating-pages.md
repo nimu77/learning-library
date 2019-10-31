@@ -134,4 +134,4 @@
 
 ## Summary
 
-TODO. [Click here ot navigate to Module 5](5-using-the-rest-service-on-dept-defining-list-of-values.md)
+TODO. [Click here to navigate to Module 5](5-using-the-rest-service-on-dept-defining-list-of-values.md)

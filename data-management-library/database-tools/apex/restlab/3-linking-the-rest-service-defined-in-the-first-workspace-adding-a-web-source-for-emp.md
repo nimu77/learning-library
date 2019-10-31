@@ -32,38 +32,39 @@
     ![](images/3/click-rest-emp-source.png)
 
 2. Notice only the GET and POST Operations have been added
-3. Click **Add Operation**
+3.  Click **Add Operation**
 
     ![](images/3/click-add-operation.png)
 
-| Property | Type or Select | Value |
-| --- | --- | --- |
-| URL Pattern | type | **:empno** |
-| HTTP Method | select | **PUT** |
-| Database Operation | select | **Fetech single row** |
-- Click **Create** 
+    | Property | Type or Select | Value |
+    | --- | --- | --- |
+    | URL Pattern | type | **:empno** |
+    | HTTP Method | select | **GET** |
+    | Database Operation | select | **Fetech single row** |
+    - Click **Create** 
 
     ![](images/3/select-database-operation.png)
 
-4. Click **Add Operation**
+4.  Click **Add Operation**
 
-| Property | Type or Select | Value |
-| --- | --- | --- |
-| URL Pattern | type | **:empno** |
-| HTTP Method | select | **PUT** |
-| Database Operation | select | **update row** |
-- Click **Create**
+    | Property | Type or Select | Value |
+    | --- | --- | --- |
+    | URL Pattern | type | **:empno** |
+    | HTTP Method | select | **PUT** |
+    | Database Operation | select | **update row** |
+    - Click **Create**
 
 5. Click **Add Operation**
 
-| Property | Type or Select | Value |
-| --- | --- | --- |
-| URL Pattern | type | **:empno** |
-| HTTP Method | select | **DELETE** |
-| Database Operation | select | **Delete row** |
-- Click **Create**  
+    | Property | Type or Select | Value |
+    | --- | --- | --- |
+    | URL Pattern | type | **:empno** |
+    | HTTP Method | select | **DELETE** |
+    | Database Operation | select | **Delete row** |
+    - Click **Create**  
     ![](images/3/operations.png)
-
+    *This is how it should look after you have created additional three operations.*
+    - Click **Apply Changes**
 ## Summary
 
 TODO. [Click here to navigate to Module 4](4-defining-the-report-and-form-on-emp-creating-pages.md)
