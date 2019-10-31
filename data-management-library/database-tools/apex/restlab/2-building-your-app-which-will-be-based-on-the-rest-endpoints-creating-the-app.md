@@ -2,21 +2,21 @@
 
 ### **Part 1**: Log into your Second Workspace
 
-- In the top toolbar, click your user name, then click **Sign Out**  
+1. In the top toolbar, click your user name, then click **Sign Out**  
     ![](images/2/sign-out.png)
-- Click **Return to Sign in Page**
-- Log into your second workspace  
+2. Click **Return to Sign in Page**
+3. Log into your second workspace  
   *{ first initial || last name || _HOL , for example DPEAKE_HOL}*
 
 ### **Part 2**: Create an App  
 
-- Click **App Builder**
-- Click **Create**  
+1. Click **App Builder**
+2. Click **Create**  
     ![](images/2/click-create.png)
-- Click **New Application**  
+3. Click **New Application**  
     ![](images/2/new-application.png)
-- For Name, enter **REST Employees**
-- Click **Create Application**
+4. For Name, enter **REST Employees**
+5. Click **Create Application**
 
     ![](images/2/click-create-application.png)
 
