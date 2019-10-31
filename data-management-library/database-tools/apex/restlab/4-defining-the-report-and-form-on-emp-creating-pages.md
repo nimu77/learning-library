@@ -105,10 +105,9 @@
 | Mgr | enter | **7839** |
 | Sal | enter | **1500** |
 | Hiredate | select | *any date* |
+  
 - Click **Create**
-
     *Find the new entry on the Employees report page*
-
     ![](images/4/enter-values.png)
 
 ### **Part 5**: Update a Record
@@ -122,7 +121,6 @@
 
 - Click **Apply Changes**
 - Review **Ward** in the report
-
     ![](images/4/update-a-record.png)
 
 ### **Part 6**: Delete a Record
