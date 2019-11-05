@@ -4,10 +4,10 @@ This lab requires two different schemas. On the Autonomous Database Cloud Servic
 
 ## Lab Objectives
 
-1. Create REST modules on the tables.
-2. Create web source module in the new application.
-3. Create page using web source.
-4. Add a function to define list of values.
+- Create REST modules on the tables.
+- Create web source module in the new application.
+- Create page using web source.
+- Add a function to define list of values.
 ## Lab Modules
 
 | # | Module | Est. Time |
