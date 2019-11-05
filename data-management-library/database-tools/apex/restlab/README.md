@@ -4,8 +4,9 @@ This lab requires two different schemas. On the Autonomous Database Cloud Servic
 
 ## Lab Objectives
 
-TODO.
-
+1. Create REST modules on the tables.
+2. Create an app defining Web Source Modules.
+3. 
 ## Lab Modules
 
 | # | Module | Est. Time |

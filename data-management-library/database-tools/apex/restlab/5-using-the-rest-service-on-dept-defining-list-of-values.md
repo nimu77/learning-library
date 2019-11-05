@@ -26,7 +26,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 *Similar to https://<< your service >>/dpeake_rest/**dept**/hol/*
 
     ![](images/5/web-source-type.png)
-
+     
 10. Review the Base URL, Service URL Path, and then click **Next**.
 11. Click **Discover**.
 *Authentication Required = No*
@@ -36,24 +36,23 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ### **Part 2**: Adding a Function to call DEPT
 
-1. In the main menu, select **SQL Workshop**, click **SQL Scripts**  
+1. In the main menu, select **SQL Workshop**, click **SQL Scripts**. 
     ![](images/5/select-sql-scripts.png)
 
-2. Click **Create**  
+2. Click **Create**.  
     ![](images/5/click-create.png)
 
 3. Copy the following URL into a new window in your browser:  
-  *Remember you are on Slide 54 if you click the link directly*
   http://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-hol-func-5478627.txt
 
 4. In the Script Editor:
-    - Enter Script Name = **DEPT Function**
-    - Paste the contents of the file into the body
-    - Click **Run**  
+    - Enter Script Name = **DEPT Function**.
+    - Paste the contents of the file into the body.
+    - Click **Run**.  
     ![](images/5/type-script-name.png)
 
-    - Click **Run Now**
-    - Results should show 3 statements processed successfully
+    - Click **Run Now**.
+    - Results should show 3 statements processed successfully.
     ![](images/5/result-shown.png)
 
 ### **Part 3**: Add the List of Values
@@ -80,23 +79,23 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
     ```
 
     ![](images/5/click-create-list-of-values.png)  
-    *Note: dept_rest is the name of the function created in the previous step*
+    *Note: dept_rest is the name of the function created in part 2.*
 8. Click **Create List of Values**.
 
 ### **Part 4**: Update the EMP Pages
 
-1. Click on **Application xxxxx** in the breadcrumb, and then click **2 - Employees**
+1. Click on **Application xxxxx** in the breadcrumb, and then click **2 - Employees**.
 
     ![](images/5/click-application-xxxx.png)
 
 
 2. In the Rendering tree (left pane), click **Columns**, and then click **DEPTNO**.  
     - In the Property Editor (right pane)
-        - For Type, select **Plain Text (based on List of Values)** 
-        - For List of Values, select **DEPT LOV** 
-        - For Heading > Alignment, click **Start** 
-        - For Layout > Column Alignment, click **Start**
-    - In the toolbar, click **Save**
+        - For Type, select **Plain Text (based on List of Values)**. 
+        - For List of Values, select **DEPT LOV**. 
+        - For Heading > Alignment, click **Start**. 
+        - For Layout > Column Alignment, click **Start**.
+    - In the toolbar, click **Save**.
 
     ![](images/5/update-column.png)
 
@@ -105,12 +104,12 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
     ![](images/5/navigate-page.png)
 4. In the Rendering tree (left pane), click **P3_DEPTNO**.
     - In the Property Editor (right pane).
-        - For Type, select **Select List** 
-        - For List of Values > Type, select **Shared Component** 
-        - For List of Values, select **DEPT LOV** 
-        - For Display Extra Values, click **No** 
-        - For Display Null Value, click **No**
-    - In the toolbar, click **Save**  
+        - For Type, select **Select List**. 
+        - For List of Values > Type, select **Shared Component**.
+        - For List of Values, select **DEPT LOV**. 
+        - For Display Extra Values, click **No**. 
+        - For Display Null Value, click **No**.
+    - In the toolbar, click **Save** . 
 
     ![](images/5/update-property.png)
 

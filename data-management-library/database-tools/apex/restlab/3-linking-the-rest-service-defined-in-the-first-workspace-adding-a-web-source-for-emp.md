@@ -1,5 +1,6 @@
 # Module 3: Linking the REST Service defined in the first workspace - Adding a Web Source for EMP
 
+In this Module, you will link the REST Endpoints defined in first workspace and create web source for the application you have created in previous module.
 ### **Part 1**: Adding Web Source for EMP 
 
 1. Click **Shared Components**.  
@@ -44,7 +45,7 @@
 
     ![](images/3/select-database-operation.png)
 
-4.  Click **Add Operation**
+4.  Click **Add Operation** and enter following:
 
     | Property | Type or Select | Value |
     | --- | --- | --- |
@@ -53,7 +54,7 @@
     | Database Operation | select | **update row** |
     - Click **Create**
 
-5. Click **Add Operation**
+5. Click **Add Operation** and enter following:
 
     | Property | Type or Select | Value |
     | --- | --- | --- |
@@ -66,4 +67,4 @@
     - Click **Apply Changes**
 ## Summary
 
-TODO. [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)
+This completes Module 3. You now know how to create a web source modules linking to the REST Endpoints that was defined in previous module.  [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)

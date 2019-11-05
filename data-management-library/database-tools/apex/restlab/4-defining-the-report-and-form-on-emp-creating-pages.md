@@ -1,5 +1,5 @@
 # Module 4: Defining the Report and Form on EMP - Creating Pages
-
+In this Module, you will create a new page using web source that is already linked to your application. You will further update the page that you have created for better functionality.
 ### **Part 1**: Use the Create Page Wizard
 
 1. Return to the Application Home Page.
@@ -18,6 +18,7 @@
     | Form Page Name | enter | **Maintain Employee** |
     | Form Page Mode | select | **Modal Dialog** |
     | Breadcrumb | select | **Breadcrumb** |
+    | Entry Name | enter | **Employees** |
 
     ![](images/4/page-attributes.png)
 
@@ -59,10 +60,10 @@
     ![](images/4/click-apply.png)
 9. Click the edit icon on a row - The Form Page is displayed.
 11. In the Developer Toolbar, click **Edit Page 3**. 
-    - Page Designer will be displayed for the current page.
-
-    ![](images/4/click-edit-page-three.png)  
-*Note: The Developer Toolbar is only displayed when you run apps from App Builder, so is never visible to end users*.
+    
+    ![](images/4/click-edit-page-three.png) 
+    - Page Designer will be displayed for the current page. 
+    *Note: The Developer Toolbar is only displayed when you run apps from App Builder, so is never visible to end users*.
 
 ### **Part 3**: Updating the Page
 
@@ -101,7 +102,7 @@
     | Hiredate | select | *any date* |
   
     - Click **Create**
-    *Find the new entry on the Employees report page*
+    *Find the new entry on the Employees report page.*
     ![](images/4/enter-values.png)
 
 ### **Part 5**: Updating a Record
@@ -127,4 +128,4 @@
 
 ## Summary
 
-TODO. [Click here to navigate to Module 5.](5-using-the-rest-service-on-dept-defining-list-of-values.md)
+This completes Module 4. You now know how to create a page using web source module.  [Click here to navigate to Module 5.](5-using-the-rest-service-on-dept-defining-list-of-values.md)
