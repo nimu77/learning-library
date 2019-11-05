@@ -30,9 +30,10 @@
     ![](images/3/click-rest-emp-source.png)
 
 2. Notice only the GET and POST Operations have been added.
-3. Click **Add Operation** and enter following:
 
     ![](images/3/click-add-operation.png)
+
+3. Click **Add Operation** and enter following:
 
     | Property | Type or Select | Value |
     | --- | --- | --- |
@@ -65,4 +66,4 @@
     - Click **Apply Changes**
 ## Summary
 
-TODO. [Click here to navigate to Module 4](4-defining-the-report-and-form-on-emp-creating-pages.md)
+TODO. [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)

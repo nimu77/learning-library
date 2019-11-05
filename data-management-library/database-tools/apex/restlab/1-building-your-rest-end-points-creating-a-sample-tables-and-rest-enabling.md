@@ -1,5 +1,6 @@
 # Module 1: Building your Rest Endpoints - Creating a Sample Tables and REST Enabling
 
+In this Module, you will create a sample dataset, import data into datasets and create REST Endpoints. Review the REST Endpoints, as we use its URL to create an app later in upcoming modules.
 ### **Part 1**: Creating EMP and DEPT table in your first workspace
 
 1. Log into your first workspace.
@@ -45,8 +46,8 @@ http://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-
 ## Information
 Running the SQL Script in Part 2 above REST Enables the schema and also creates modules for the EMP and DEPT tables and the EMP_DEPT_V view, together with the appropriate handlers.
 
-Alternatively, you could have gone directly to SQL Workshop > RESTful Services and REST enabled the schema. Then gone to SQL Workshop > Object Browser, clicked on each table / view and then selected REST to define the REST services. However, the handlers created will utilize Data Dictionary lookups each time they are called. This is less efficient then the manually created services created in Part 2, especially on services such as apex.oracle.com which has over 20,000 schemas and an extremely large data dictionary.
+Alternatively, you could have gone directly to SQL Workshop > RESTful Services and REST enabled the schema. Then gone to SQL Workshop > Object Browser, clicked on each table / view and then selected REST to define the REST services. However, the handlers created will utilize Data Dictionary lookups each time they are called. This is less efficient than the manually created services created in Part 2, especially on services such as apex.oracle.com which has over 20,000 schemas and an extremely large data dictionary.
 
 ## Summary
 
-TODO.[Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)
+This completes Module 1. You now know how to create a sample EMP and DEPT table, and build a REST endpoint in your first workspace to render when creating an app later on in Module 3 and 4.[Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)
