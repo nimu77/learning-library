@@ -1,5 +1,6 @@
 # Module 5: Using the REST Service on DEPT - Defining List of Values
 
+In this Module, you will create a web source module for DEPT. You will then, add a list of values and use it update the employee page.
 ### Information
 
 When you ran the script in your first workspace you created a REST handler for the DEPT table. You can now utilize that REST URI within a PL/SQL Function by using the APEX_EXEC package.
@@ -125,7 +126,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ## Summary
 
-TODO.
+This completes Module 5. You now have the idea of creating an application based on REST funtion. 
 
 ## **Learn More** - *Useful Links*
 
