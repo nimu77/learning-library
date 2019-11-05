@@ -67,4 +67,4 @@ In this Module, you will link the REST Endpoints defined in first workspace and 
     - Click **Apply Changes**
 ## Summary
 
-This completes Module 3. You now know how to create a web source modules linking to the REST Endpoints that was defined in previous module.  [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)
+This completes Module 3. You now know how to create a web source modules linking to the REST Endpoints that was defined in Module 1.  [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)

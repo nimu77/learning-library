@@ -12,7 +12,7 @@ Once fully implemented, you can utilize the function as the basis for a List of 
 Read this blog post for more details:  
 https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
-### **Part 1**: Add Web Source for DEPT
+### **Part 1**: Adding Web Source for DEPT
 
 1. Return to the Application Builder.
 2. Go to the App Builder Home Page and select your application.

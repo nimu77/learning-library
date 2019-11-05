@@ -1,6 +1,6 @@
 # Module 1: Building your Rest Endpoints - Creating a Sample Tables and REST Enabling
 
-In this Module, you will create a sample dataset, import data into datasets and create REST Endpoints. Review the REST Endpoints, as we use its URL to create an app later in upcoming modules.
+In this Module, you will create a sample dataset, import data into datasets and create REST Endpoints. Review the REST Endpoints, as we will use its URL to create web source modules.
 ### **Part 1**: Creating EMP and DEPT table in your first workspace
 
 1. Log into your first workspace.
@@ -50,4 +50,4 @@ Alternatively, you could have gone directly to SQL Workshop > RESTful Services a
 
 ## Summary
 
-This completes Module 1. You now know how to create a sample EMP and DEPT table, and build REST endpoint in your first workspace to render when creating an app later on in the upcoming Modules. [Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)
+This completes Module 1. You now know how to create a sample EMP and DEPT table, and build REST endpoint in your first workspace to render data in a newly created application in second workspace. [Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)

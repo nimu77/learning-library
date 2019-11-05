@@ -1,6 +1,6 @@
 # Module 2: Building your App which will be based on the REST Endpoints - Creating the App
 In this Module, you will log into your second workspace and create an application. 
-### **Part 1**: Log into your Second Workspace
+### **Part 1**: Logging into your Second Workspace
 
 1. In the top toolbar, click your user name, then click **Sign Out**. 
     ![](images/2/sign-out.png)
@@ -8,7 +8,7 @@ In this Module, you will log into your second workspace and create an applicatio
 3. Navigate to Oracle APEX, and Log into your Second Workspace.
 *Note: This is the second Autonomous Database, and you are logging in to workspace with its credentials.
 
-### **Part 2**: Create an App  
+### **Part 2**: Creating an App  
 
 1. Click **App Builder**, and click **Create**. 
     ![](images/2/click-create.png)
