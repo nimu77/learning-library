@@ -36,9 +36,9 @@ In this Module, you will link the REST Endpoints defined in first workspace and 
 
 3. Click **Add Operation** and enter following:
 
-    | Property | Type or Select | Value |
+    | Property | Enter or Select | Value |
     | --- | --- | --- |
-    | URL Pattern | type | **:empno** |
+    | URL Pattern | enter | **:empno** |
     | HTTP Method | select | **GET** |
     | Database Operation | select | **Fetech single row** |
     - Click **Create** 
@@ -47,18 +47,18 @@ In this Module, you will link the REST Endpoints defined in first workspace and 
 
 4.  Click **Add Operation** and enter following:
 
-    | Property | Type or Select | Value |
+    | Property | Enter or Select | Value |
     | --- | --- | --- |
-    | URL Pattern | type | **:empno** |
+    | URL Pattern | enter | **:empno** |
     | HTTP Method | select | **PUT** |
-    | Database Operation | select | **update row** |
+    | Database Operation | select | **Update row** |
     - Click **Create**
 
 5. Click **Add Operation** and enter following:
 
-    | Property | Type or Select | Value |
+    | Property | Enter or Select | Value |
     | --- | --- | --- |
-    | URL Pattern | type | **:empno** |
+    | URL Pattern | enter | **:empno** |
     | HTTP Method | select | **DELETE** |
     | Database Operation | select | **Delete row** |
     - Click **Create**  

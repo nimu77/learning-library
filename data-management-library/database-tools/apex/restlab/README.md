@@ -5,17 +5,18 @@ This lab requires two different schemas. On the Autonomous Database Cloud Servic
 ## Lab Objectives
 
 1. Create REST modules on the tables.
-2. Create an app defining Web Source Modules.
-3. 
+2. Create web source module in the new application.
+3. Create page using web source.
+4. Add a function to define list of values.
 ## Lab Modules
 
 | # | Module | Est. Time |
 | --- | --- | --- |
 | 1 | [Creating a Sample Tables and REST Enabling](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md) | 8 min |
 | 2 | [Creating the App](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md) | 5 min |
-| 3 | [Adding a Web Source for EMP](3-linking-the-rest-service-defined-in-the-first-workspace-adding-a-web-source-for-emp.md) | 10 min |
-| 4 | [Creating Pages](4-defining-the-report-and-form-on-emp-creating-pages.md) | 10 min |
-| 5 | [Defining List of Values](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 15 min |
+| 3 | [Adding a Web Source for EMP](3-linking-the-rest-service-defined-in-the-first-workspace-adding-a-web-source-for-emp.md) | 8 min |
+| 4 | [Creating Pages](4-defining-the-report-and-form-on-emp-creating-pages.md) | 12 min |
+| 5 | [Defining List of Values](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 10 min |
 
 ## Parts
 

@@ -1,13 +1,13 @@
 # Module 4: Defining the Report and Form on EMP - Creating Pages
 In this Module, you will create a new page using web source that is already linked to your application. You will further update the page that you have created for better functionality.
-### **Part 1**: Use the Create Page Wizard
+### **Part 1**: Creating a page using Web Source
 
 1. Return to the Application Home Page.
 2. Click **Create Page**.
 
     ![](images/4/select-create-page.png)
 
-3. For Page Type, click **Report**  
+3. For Page Type, click **Report**. 
     ![](images/4/click-report.png)
 4. For Report Type, click **Report with Form**.  
     ![](images/4/click-report-with-form.png)
@@ -33,7 +33,7 @@ In this Module, you will create a new page using web source that is already link
 
     ![](images/4/primary-key-column.png)
 
-### **Part 2**: Run the Application
+### **Part 2**: Running the Application
 
 1. From Page Designer, click **Save and Run**.  
     ![](images/4/save-and-run-app.png)
@@ -128,4 +128,4 @@ In this Module, you will create a new page using web source that is already link
 
 ## Summary
 
-This completes Module 4. You now know how to create a page using web source module.  [Click here to navigate to Module 5.](5-using-the-rest-service-on-dept-defining-list-of-values.md)
+This completes Module 4. You now know how to create a page using web source module, modify the page by updating the page designer, and also manipulating records in the runtime environment.  [Click here to navigate to Module 5.](5-using-the-rest-service-on-dept-defining-list-of-values.md)

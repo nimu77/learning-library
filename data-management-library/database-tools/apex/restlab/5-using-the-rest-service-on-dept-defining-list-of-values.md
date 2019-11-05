@@ -37,7 +37,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ### **Part 2**: Adding a Function to call DEPT
 
-1. In the main menu, select **SQL Workshop**, click **SQL Scripts**. 
+1. In the main menu, select **SQL Workshop**, and then click **SQL Scripts**. 
     ![](images/5/select-sql-scripts.png)
 
 2. Click **Create**.  
@@ -56,7 +56,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
     - Results should show 3 statements processed successfully.
     ![](images/5/result-shown.png)
 
-### **Part 3**: Add the List of Values
+### **Part 3**: Adding the List of Values
 
 1. Return to App Builder and select your application.
 2. Click **Shared Components**; Click **List of Values**.
@@ -81,9 +81,9 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
     ![](images/5/click-create-list-of-values.png)  
     *Note: dept_rest is the name of the function created in part 2.*
-8. Click **Create List of Values**.
+    - Click **Create List of Values**.
 
-### **Part 4**: Update the EMP Pages
+### **Part 4**: Updating the EMP Pages
 
 1. Click on **Application xxxxx** in the breadcrumb, and then click **2 - Employees**.
 
@@ -114,7 +114,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
     ![](images/5/update-property.png)
 
-### **Part 5**: Run the Application
+### **Part 5**: Running the Application
 
 1. Navigate to the application Runtime Environment and refresh your browser.
 
