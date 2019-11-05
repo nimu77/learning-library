@@ -1,6 +1,6 @@
 # Module 3: Adding a Calendar
 In this module, you will create a new page to add calendar to your first application and link to other page to update calendar data.
-### **Part 1** - Add a Calendar
+### **Part 1** - Adding a Calendar
 TODO.
 1. Navigate back to the development environment. In the App Builder, navigate to the App Home Page, and then click **Create Page**.
 
@@ -20,7 +20,7 @@ TODO.
 6. For Display Column, select **TASK_NAME**; For End Date Column, select **END_DATE** and then click **Create**.  
     ![](images/3/click-create.png)
 
-### **Part 2** – Link the Calendar to the Update Form
+### **Part 2** – Linking the Calendar to the Update Form
 
 1. In the Rendering tab, under Calendar, click **Attributes**.
 2. In the Property Editor (right pane), click **View / Edit Link**.
@@ -36,7 +36,9 @@ TODO.
 
 ## Summary
 
-To be added.
+This completes Module 3. You now how to create an application by uploading a file, enhancing the page using runtime environment and page designer, and also adding new page to enhance the application.
+
+## **Learn More** - *Useful Links*
 
 - APEX on Autonomous  https://apex.oracle.com/autonomous
 - APEX Collateral  http://apex.oracle.com

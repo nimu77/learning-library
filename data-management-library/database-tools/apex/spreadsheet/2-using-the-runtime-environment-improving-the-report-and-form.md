@@ -1,7 +1,7 @@
 # Module 2: Improving the Report and Form
 
 In this module, you will get first-hand expereience with managing the application by improving the interactive report user experience and form page.
-### **Part 1**: Basic Interactive Report Enhancement
+### **Part 1**: Enhancing Basic Interactive Report
 Now, that you have created an app. It is time to improve report page for better clarity of data visualization.
 1. If already not on the runtime application, go ahead and click **run application** from the development environment and then, Click **Project**.
 2. Click **Actions**, select **Data**, and then select **Sort**.
@@ -19,7 +19,7 @@ Now, that you have created an app. It is time to improve report page for better 
 
     ![](images/2/default-report-type.png)
 
-### **Part 2** - Additional Interactive Report Enhancement
+### **Part 2** - Enhancing Additional Interactive Report
 In this part, you will further improve interactive report by adding new column by means of computation and you will also create a chart to review report.
 1. Click **Actions**, select **Data**, select **Compute**.
 2. Enter following data, and then click **Apply.**
@@ -47,7 +47,7 @@ In this part, you will further improve interactive report by adding new column b
     ![](images/2/view-chart.png)
 5. Next, **Save report**. To save, repeat process from Step 4 to Step 6 from Part 1 of this module.
     
-### **Part 3** - Enhance the Form
+### **Part 3** - Enhancing the Form
 TODO.
 1. In the Runtime environment, click the view report icon.
     ![](images/2/new-view-report.png)
@@ -87,4 +87,4 @@ TODO.
 
 ## Summary
 
-TODO.[Click here to navigate to Module 3](3-using-the-runtime-environment-adding-a-calendar.md)
+This completes Module 2. You now know how to update and modify page in the runtime environment and also enhancing form using page designer. [Click here to navigate to Module 3](3-using-the-runtime-environment-adding-a-calendar.md)

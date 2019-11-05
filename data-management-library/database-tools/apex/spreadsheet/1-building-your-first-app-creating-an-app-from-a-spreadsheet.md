@@ -2,7 +2,7 @@
 
 In this module, you will learn how to create an APEX App on top of data imported from an excel spreadsheet. To simplify the lab, you will use sample data that's built into APEX. However, the sequence will be the same when uploading your own data.
 
-### **Part 1**: Load project and tasks data  
+### **Part 1**: Loading project and tasks data  
  
 1.  From your APEX workspace home page, click **App Builder**.
 2.  Click **Create a New App**.
@@ -25,11 +25,11 @@ In this module, you will learn how to create an APEX App on top of data imported
     
     After clicking **Load Data** you will see a spinner until the wizard finished loading. Continue to Part 2 at that point.
 
-### **Part 2**: Create and run an application 
+### **Part 2**: Creating and running an application 
 
 The Data Load wizard has created a new table and populated that table with the records from the sample data. Now you can create an app based on this new table.
 
-1.  Verify that 73 rows have been loaded into the **DEMO_PROJECT** table, then click **Continue to Create Application Wizard**.
+1.  Verify that 73 rows have been loaded into the **DEMO_PROJECT** table, then click **Create Application**.
 
     ![](images/1/continue-to-create-application-wizard.png)
 
@@ -40,7 +40,7 @@ The Data Load wizard has created a new table and populated that table with the r
 
     When the wizard finishes creating the application, you will be redirected to the application's home page in the App Builder.
 
-### **Part 3**: Explore the new app
+### **Part 3**: Exploring the new app
 
 1.  Click **Run Application**. This will open the runtime application in a new browser tab, allowing you to see how end users will view the app.
 
@@ -53,4 +53,4 @@ The Data Load wizard has created a new table and populated that table with the r
 
 ## Summary
 
-TODO [Click here to navigate to Module 2](2-using-the-runtime-environment-improving-the-report-and-form.md)
+This completes Module 1. You now know how to create an application from a file by either uploading or loading sample data for training purposes. [Click here to navigate to Module 2](2-using-the-runtime-environment-improving-the-report-and-form.md)
