@@ -110,4 +110,4 @@ When you first access APEX you will need to log in as an APEX instance administr
     
 ## Summary
 
-TODO. [Click here to navigate to Module 1](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md)
+This completes the lab setup. At this point, you know how to create a new Autonomous Transaction Processing instance and create an APEX workspace within it.. [Click here to navigate to Module 1](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md)
