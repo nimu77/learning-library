@@ -16,7 +16,7 @@ hol.config(function ($mdThemingProvider) {
   $mdThemingProvider.alwaysWatchTheme(true);
 });
 
-hol.controller('holController', ['$scope', '$http', '$mdSidenav', '$sanitize', '$sce', '$mdDialog', '$mdToast' 
+hol.controller('holController', ['$scope', '$http', '$mdSidenav', '$sanitize', '$sce', '$mdDialog', '$mdToast'
   , function ($scope, $http, $mdSidenav, $sanitize, $sce, $mdDialog, $mdToast) {
       $scope.toast = $mdToast;
       $scope.toastPromise = {};
@@ -56,7 +56,7 @@ hol.controller('holController', ['$scope', '$http', '$mdSidenav', '$sanitize', '
               console.log("json",$scope.manifest);
 
               preparePage();
-            }, 
+            },
             function (err) {
               console.log('Error getting manifest.json!');
               console.log(err);
@@ -118,14 +118,19 @@ hol.controller('holController', ['$scope', '$http', '$mdSidenav', '$sanitize', '
                 $scope.selection = 'lab';
                 page.htmlContent = html;
                 setTimeout(function () {
-                    $("#module-content h2").next("h3").addClass("first-in-section");
+                    // $("#module-content h2").next("h3").addClass("first-in-section");
+                    $("#module-content h3:first")
+                      .before('<button class="hol-ToggleRegions plus">Expand All Parts</button>')
+                      .prev()
+                      .add("#module-content h3")
+                      .on('click', stepClickHandler);
                     $("#module-content h3").nextUntil("#module-content h1, #module-content h2, #module-content h3").hide();
                     $("#module-content h3").addClass('plus');
                     $("#module-content h3").unbind('click', stepClickHandler);
                     $("#module-content h3").click(stepClickHandler);
                     window.scrollTo(0, 0);
                 }, 0);
-              }, 
+              },
               function (err) {
                 $scope.showCustomToast({'text': 'File: ' + page + ' not found!'}, 5000, true);
                 $scope.showHomePage();
@@ -172,33 +177,47 @@ hol.controller('holController', ['$scope', '$http', '$mdSidenav', '$sanitize', '
           $scope.loadModule(history.state, false);
         });
 
+        function fadeInAll() {
+          // fadeInStep($(this).next('h3'));
+          $('#module-content h3').each(function() {
+            fadeInStep(this);
+          });
+          $('.hol-ToggleRegions').addClass('minus');
+          $('.hol-ToggleRegions').removeClass('plus');
+          $('.hol-ToggleRegions').text('Collapse All Parts');
+        }
+
+        function fadeOutAll() {
+          $('#module-content h3').each(function() {
+            fadeOutStep(this);
+          });
+          $('.hol-ToggleRegions').removeClass('minus');
+          $('.hol-ToggleRegions').addClass('plus');
+          $('.hol-ToggleRegions').text('Expand All Parts');
+        }
+
+        function fadeOutStep(step) {
+          $(step).nextUntil("#module-content h1, #module-content h2, #module-content h3").fadeOut();
+          $(step).addClass('plus');
+          $(step).removeClass('minus');
+        }
+
+        function fadeInStep(step) {
+          $(step).nextUntil("#module-content h1, #module-content h2, #module-content h3").fadeIn();
+          $(step).addClass('minus');
+          $(step).removeClass('plus');
+        }
+
+
         stepClickHandler = function (e) {
-          var fadeOutStep = function (step) {
-            $(step).nextUntil("#module-content h1, #module-content h2, #module-content h3").fadeOut();
-            $(step).addClass('plus');
-            $(step).removeClass('minus');
-          };
 
-          var fadeInStep = function (step) {
-            $(step).nextUntil("#module-content h1, #module-content h2, #module-content h3").fadeIn();
-            $(step).addClass('minus');
-            $(step).removeClass('plus');
-          };
+          if ($(this).hasClass('hol-ToggleRegions')) {
 
-          if (e.offsetY < 0) { //user has clicked above the H3, in the expand/collapse all button
-            if ($(this).hasClass('first-in-section') && $(this).hasClass('plus')) {
-              fadeInStep($(this));
-
-              $(this).nextUntil("#module-content h1, #module-content h2", "h3").each(function (i, e) {
-                return fadeInStep(e);
-              });
+            if ($(this).hasClass('plus')) {
+              fadeInAll();
             }
-            else if ($(this).hasClass('first-in-section') && $(this).hasClass('minus')) {
-              fadeOutStep($(this));
-
-              $(this).nextUntil("#module-content h1, #module-content h2", "h3").each(function (i, e) {
-                return fadeOutStep(e);
-              });
+            else {
+              fadeOutAll();
             }
           } else { //user has clicked in the H3, only work on this step
             if ($(this).hasClass('plus')) {
