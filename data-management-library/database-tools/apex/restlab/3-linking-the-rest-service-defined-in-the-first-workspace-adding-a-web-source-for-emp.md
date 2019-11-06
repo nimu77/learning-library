@@ -64,7 +64,7 @@ In this Module, you will link the REST Endpoints defined in first workspace and 
     - Click **Create**  
     ![](images/3/operations.png)
     *This is how it should look after you have created additional three operations.*
-    - Click **Apply Changes**
+6. Click **Apply Changes**
 ## Summary
 
 This completes Module 3. You now know how to create a web source modules linking to the REST Endpoints that was defined in Module 1.  [Click here to navigate to Module 4.](4-defining-the-report-and-form-on-emp-creating-pages.md)
