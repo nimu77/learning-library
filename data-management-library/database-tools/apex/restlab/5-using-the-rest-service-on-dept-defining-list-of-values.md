@@ -126,7 +126,7 @@ https://blogs.oracle.com/apex/apex-181-early-adopter-2-rest-services-and-plsql
 
 ## Summary
 
-This completes Module 5. You should now know how to create a web source module in a new application and link it to REST Endpoints in different schema to populate data.
+This completes Module 5. You should now know how to create a web source module in a new application and link it to REST Endpoints to populate data.
 
 ## **Learn More** - *Useful Links*
 
