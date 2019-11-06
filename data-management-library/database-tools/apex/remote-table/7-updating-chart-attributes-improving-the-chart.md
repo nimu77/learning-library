@@ -15,12 +15,12 @@
 
 1. From Page Designer, in the Rendering tree (left pane), under **Chart**, click **Series 1**.
 2. In the Property Editor (right pane), for Identification > Name, enter **Dollar Exchange Rate** and for Label > Show, click **No**.  
-    ![](https://i.imgur.com/MzErq7k.png[/img])
+    ![](images/7/updating-chart.png)
 
 ### **Part 3**: Duplicating the Chart Series
 
 1. In the Rendering tree (left pane), under **Chart**, right-click **Dollar Exchange Rate**, click **Duplicate**. (Repeat the step above to create a third series). 
-    ![](https://i.imgur.com/ejC2zbF.png[/img])  
+    ![](images/7/duplicate-chart.png)  
     *You should now have Dollar Exchange Rate, Dollar Exchange Rate_1, and Dollar Exchange Rate_2 or Dollar Exchange Rate_1_1, depending on which one you duplicate to create the third series*.
 
 ### **Part 4**: Updating the Second Chart Series
@@ -28,7 +28,7 @@
 1. In the Rendering tree (left pane), under **Chart**, click **Dollar Exchange Rate_2**.
 2. In the Property Editor (right pane), for Identification > Name, enter **Relative Exchange Rate**.
 
-    ![](https://i.imgur.com/aWry31t.png[/img])
+    ![](images/7/updating-second-chart.png)
 
 3. For Source > SQL Query, enter the following:
     ```
@@ -43,7 +43,7 @@
     order by entry_date
     ```
 4. For Column Mapping > Value, select **RELATIVE_EXCHANGE_RATE**.  
-    ![](https://i.imgur.com/IrEJJvQ.png[/img])
+    ![](images/7/second-chart-column-mapping.png)
 
 ### **Part 5**: Updating the Third Chart Series
 
@@ -65,14 +65,14 @@
 
 4. For Column Mapping > Value, select **PERCENTAGE_DIFFERENCE**.
 5. For Appearance > Assigned To Y2 Axis, check **Yes**.  
-    ![](https://i.imgur.com/Vm6J2gI.png[/img])  
+    ![](images/7/updating-third-chart.png)  
     *Note: If you do not check ‘Assigned to Y2 Axis’ then the chart will not display well, and not look like the following page.*
 
 ### **Part 6**: Running the Chart
 
 1. In Page Designer, within the Toolbar, click **Save and Run**.
 
-    ![](https://i.imgur.com/ZB7fCXW.png[/img])
+    ![](images/7/running-the-chart.png)
 
 ## Summary
 

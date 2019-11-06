@@ -9,79 +9,81 @@ To refresh the chart whenever the country in the select list is changed you need
 
 In order for the chart to properly utilize the updated value in the select list, then it is necessary to submit that page item when rendering the chart.
 
-### **Part 9.1** – Return to App Builder
+### **Part 1**: Returning to App Builder
 
-- From the Runtime environment, in the Developer Toolbar (bottom of the screen), click **Edit Page 4**
+1. From the Runtime environment, in the Developer Toolbar (bottom of the screen), click **Edit Page 4**.
 
-![](https://i.imgur.com/ohWibTC.png[/img])
+    ![](images/8/edit-page.png)
 
-### **Part 9.2** – Add a Page Item
+### **Part 2**: Adding a Page Item
 
-- From the Property Editor, in the Gallery (center pane, below Layout), click **Items**
-- Click **Select List** and hold the mouse down
-- Drag the item up until it is in the Items section within Chart region
-- Once the Items section expands and the dark yellow box appears, release the mouse
+1. From the Property Editor, in the Gallery (center pane, below Layout), click **Items**.
+2. Click **Select List** and hold the mouse down and drag the item up until it is in the **Items** section within Chart region.
+3. Once the Items section expands and the dark yellow box appears, release the mouse.
 
-![](https://i.imgur.com/3OaSWxj.png[/img])
+    ![](images/8/adding-page-item.png)
 
-### **Part 9.3** – Update the Page Item
+### **Part 3**: Updating the Page Item
 
-- From the Property Editor, in the Property Editor (right pane),
-update the following:
-  - Identification > Name, enter **P4_COUNTRY**
-  - List of Values > Type, select **SQL Query**
-  - List of Values > SQL Query, enter 
+1. From the Property Editor, in the Property Editor (right pane), update the following:
+    - Identification > Name, enter **P4_COUNTRY**.
+    - List of Values > Type, select **SQL Query**.
+    - List of Values > SQL Query, enter 
 
-  ~~~~sql
-  select distinct country_name d, iso r  
-  from big_mac_index  
-  order by 1
-  ~~~~  
+    ```
+    select distinct country_name d, iso r  
+    from big_mac_index  
+    order by 1
+    ```
 
-   - List of Values > Display Extra Values, click **No**
-   - List of Values > Null Display Value, enter - **Select Country -**
+    - List of Values > Display Extra Values, click **No**.
+    - List of Values > Null Display Value, enter **- Select Country -**.
 
-![](https://i.imgur.com/iwI2ggh.png[/img])
+    ![](images/8/updating-the-page.png)
 
-### **Part 9.4** – Add a Dynamic Action
+### **Part 4**: Adding a Dynamic Action
 
-- In the Rendering tree (left pane), right click on **P4_COUNTRY**, select **Create Dynamic Action**  
-![](https://i.imgur.com/DqxiolP.png[/img])
+1. In the Rendering tree (left pane), right click on **P4_COUNTRY**, select **Create Dynamic Action**.  
+    ![](images/8/create-dynamic-action.png)
 
-- In the Property Editor (right pane), for Identification > Name, enter **Set Country** 
+2. In the Property Editor (right pane), for Identification > Name, enter **Set Country**. 
 
-![](https://i.imgur.com/9YjbzLf.png[/img])
-- In the Rendering tree (left pane), under Dynamic Actions > True, click **Show**
-- In the Property Editor (right pane), for Identification > Action, select **Refresh**
-- For Affected Elements > Selection Type, select **Region**
-- For Affected Elements > Region, select **Chart**
-![](https://i.imgur.com/fUoeLGJ.png[/img])
+    ![](images/8/set-country.png)
+3. In the Rendering tree (left pane), under Dynamic Actions > True, click **Show**.
+4. In the Property Editor (right pane), for Identification > Action, select **Refresh**.
+    - For Affected Elements > Selection Type, select **Region**.
+    - For Affected Elements > Region, select **Chart**.
+    ![](images/8/select-refresh.png)
 
-### **Part 9.5** – Update the Chart
+### **Part 5**: Updating the Chart
 
-- In the Rendering tree (left pane), under Content Body, click **Chart**
-- In the Property Editor (right pane), for Source > Page Items to Submit, select **P4_COUNTRY**
+1. In the Rendering tree (left pane), under Content Body, click **Chart**.
+2. In the Property Editor (right pane), for Source > Page Items to Submit, select **P4_COUNTRY**.
 
-![](https://i.imgur.com/nGHdsYd.png[/img])
+    ![](images/8/updating-the-chart.png)
 
-### **Part 9.6** – Update the Chart Series
+### **Part 6**: Updating the Chart Series
 
-- In the Rendering tree (left pane), under Series, click **Dollar Exchange Rate**
-- In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**
+1. In the Rendering tree (left pane), under Series, click **Dollar Exchange Rate**.
+2. In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**.
 
-![](https://i.imgur.com/UFmu3iD.png[/img])
+    ![](images/8/sql-query.png)
 
-- In the Rendering tree (left pane), under Series, click **Relative Exchange Rate**
-- In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**
-- In the Rendering tree (left pane), under Series, click **Percentage Difference**
-- In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**
+3. In the Rendering tree (left pane), under Series, click **Relative Exchange Rate**.
+4. In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**.
+5. In the Rendering tree (left pane), under Series, click **Percentage Difference**.
+6. In the Property Editor (right pane), for Source > SQL Query, replace **'AUS'** with :**P4_COUNTRY**.
 
-### **Part 9.7** – Run the Chart
+### **Part 7**: Running the Chart
 
-- In Page Designer, within the Toolbar, click **Save and Run**
-- In the Runtime environment, select different Countries
+1. In Page Designer, within the Toolbar, click **Save and Run**.
+2. In the Runtime environment, select different Countries.
 
-![](https://i.imgur.com/03N33qO.png[/img])
+    ![](images/8/country-selection.png)
+
+## Summary
+
+TODO.
 
 ### **Learn More** *Useful Links*
 
