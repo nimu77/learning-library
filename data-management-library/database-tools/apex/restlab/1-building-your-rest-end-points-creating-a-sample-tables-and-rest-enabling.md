@@ -50,4 +50,4 @@ Alternatively, you could have gone directly to SQL Workshop > RESTful Services a
 
 ## Summary
 
-This completes Module 1. You now know how to create a sample EMP and DEPT table, and build REST endpoint in your first workspace to render data in a newly created application in second workspace. [Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)
+This completes Module 1. You now know how to create a sample EMP and DEPT table, and build REST endpoint in your first workspace to render data later on in the upcoming modules. [Click here to navigate to Module 2.](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md)
