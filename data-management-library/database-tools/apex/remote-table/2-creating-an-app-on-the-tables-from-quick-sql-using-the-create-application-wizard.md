@@ -34,4 +34,4 @@
 
 ## Summary
 
-This completes Module 2. TODO. [Click here to navigate to Module 3](3-using-the-apex-data-parser-populating-the-table.md)
+This completes Module 2. TODO. [Click here to navigate to Module 3.](3-using-the-apex-data-parser-populating-the-table.md)
