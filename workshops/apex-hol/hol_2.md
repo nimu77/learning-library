@@ -1,10 +1,4 @@
-![](images/2/1a.PNG)
-
-**Oracle Application Express: Developing Database Web Applications**
-
-**Hands-On-Labs Guide**
-
-*Unit 2: Using SQL Workshop*
+# Unit 2: Using SQL Workshop
 
 This exercise includes two hands-on-labs.
 
@@ -56,7 +50,7 @@ It is essential to have at least the tables defined in order for the Create Appl
 
 3. In step 2, you uploaded a package called DEMO_PROJECTS_DATA_PKG. However, this package has not yet been run so the tables you created still do not have any data. The SQL Commands facility, within SQL Workshop, allows a developer to run any valid SQL commands. You will run a SQL command to execute the data package and populate the tables. Use SQL Commands to execute Oracle Database package. Perform the following steps:
 
-    a) Click the Up arrow, before SQL Scripts. 
+    a) Click the **Up** arrow, before SQL Scripts. 
     ![](images/2/3.a.png)
 
     b) Click **SQL Commands**. 
