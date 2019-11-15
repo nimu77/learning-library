@@ -10,8 +10,7 @@ TODO.
     ![](images/2/new-application.png)
 3. For Name enter **Projects**, and then click **Appearance Icon**.  
     ![](images/2/appearance-icon.png)
-- For Theme Style select **Vita – Slate**.
-- Click **Choose New Icon**, select the icon color and an icon, click **Set Application Item**, and then click **Save Changes**.
+- For Theme Style select **Vita – Slate**. Click **Choose New Icon**, select the icon color and an icon, click **Set Application Item**, and then click **Save Changes**.
 
     ![](images/2/choose-new-icon.png)
 
