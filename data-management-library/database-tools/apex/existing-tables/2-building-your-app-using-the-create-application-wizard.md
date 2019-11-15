@@ -1,7 +1,7 @@
 # Module 2: Building your app - Using the Create Application Wizard
 TODO.
 
-### **Part 1: Create an Application**
+### **Part 1: Creating an Application**
 TODO.
 1. In the App Builder menu, click **App Builder** and then click **Create**.
     ![](images/2/click-create.png)
@@ -14,7 +14,7 @@ TODO.
 
     ![](images/2/choose-new-icon.png)
 
-### **Part 2: Add the Dashboard Page**
+### **Part 2: Adding the Dashboard Page**
 
 1. Click **Add Page**, and then click **Dashboard**.
     ![](images/2/add-page-dashboard.png)
@@ -27,15 +27,10 @@ TODO.
     | Table or View | select | **SAMPLE$PROJECTS_V** |
     | Label Column | select | **Name** |
     | Value Column | select | **BUDGET_V_COST** |
-   - Chart Type – select **Bar**.
-   - Chart Name – enter **Budget versus Cost**.
-   - Table or View – select **SAMPLE$PROJECTS_V**.
-   - Label Column – select **NAME**.
-   - Value Column – select **BUDGET_V_COST**.
 
     ![](images/2/chart-1.png) 
 
-- For Chart 2, slect **Pie**, and then enter the following:
+- For Chart 2, select **Pie**, and then enter the following:
     | Property | Enter or Select | Value |
     | --- | --- | --- |
     | Chart Name | enter |**Project Status** |
@@ -43,11 +38,6 @@ TODO.
     | Label Column | select | **Status** |
     | Type | select | **Count** |
 
-   - Chart Type – select **Pie**.
-   - Chart Name – enter **Project Status**.
-   - Table or View – select **SAMPLE$PROJECTS_V**.
-   - Label Column – select **Status**.
-   - Type – select **Count**.  
     ![](images/2/chart-2.png)  
 
 - For Chart 3, select **Bar**, and then enter the following:
@@ -57,17 +47,12 @@ TODO.
     | Table or View | select | **SAMPLE$PROJECTS_V** |
     | Label Column | select | **PROJECT_LEAD** |
     | Type | select | **Count** |
-    
-   - Chart Type – select **Bar**.
-   - Chart Name – enter **Project Leads**.
-   - Table or View – select **SAMPLE$PROJECTS_V**.
-   - Label Column – select **PROJECT_LEAD**.
-   - Type – select **Count**.
 
+    ![](images/2/chart-3.png) 
 - Click **Add Page**.  
-    ![](images/2/chart-3.png)  
+    
 
-### **Part 3: Add the Project Page**
+### **Part 3: Adding the Project Page**
 
 1. Click **Add Page**, and then click **Cards**.
 2. Enter the following:
@@ -80,7 +65,7 @@ TODO.
 
     ![](images/2/add-page-project.png) 
 
-### **Part 4: Add the Milestone Page**
+### **Part 4: Adding the Milestone Page**
 
 1. Click **Add Page**, and then click **Report**.
 2. Enter the following:
@@ -92,7 +77,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-milestone.png)
 
-### **Part 5: Add the Task Pages**
+### **Part 5: Adding the Task Page**
 
 1. Click **Add Page**, and then click **Report**.
 2.  Enter the following:
@@ -106,7 +91,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-tasks.png)
 
-### **Part 6: Add a Calendar Page**
+### **Part 6: Adding the Calendar Page**
 
 1. Click **Add Page**, and then click **Calendar**.
 - Enter the following:
@@ -118,7 +103,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-calendar.png)
 
-### **Part 7: Include All Features**
+### **Part 7: Including All Features**
 
 1. Next to Features, click **Check All**, and then click **Create Application**. 
     ![](images/2/check-all.png)
