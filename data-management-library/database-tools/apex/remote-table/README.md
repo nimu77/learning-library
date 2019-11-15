@@ -79,11 +79,11 @@ In this part, you will create an instance of the Autonomous Transaction Processi
 
 When you first access APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what APEX applications are built on top of.
 
-1. Click the **Service Console** button.
+1. Click the **Tools** button.
 
     ![](images/0/click-atp-service-console.png)
 
-2. Click the **Development** option in the menu on the left, then click **Oracle APEX**. 
+2. Click **Open APEX** to access Apex.
 
     ![](images/0/click-oracle-apex.png)
 
