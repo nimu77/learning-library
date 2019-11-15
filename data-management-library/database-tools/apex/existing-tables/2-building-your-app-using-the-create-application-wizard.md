@@ -1,22 +1,21 @@
 # Module 2: Building your app - Using the Create Application Wizard
 TODO.
 
-### **Part 1**: Create an Application
+### **Part 1: Create an Application**
 TODO.
 1. In the App Builder menu, click **App Builder** and then click **Create**.
-2. Click **Create**
     ![](images/2/click-create.png)
 
-3. Click **New Application**.
+2. Click **New Application**.
     ![](images/2/new-application.png)
-4. For Name enter **Projects**, and then click **Appearance Icon**.  
+3. For Name enter **Projects**, and then click **Appearance Icon**.  
     ![](images/2/appearance-icon.png)
 - For Theme Style select **Vita – Slate**.
 - Click **Choose New Icon**, select the icon color and an icon, click **Set Application Item**, and then click **Save Changes**.
 
     ![](images/2/choose-new-icon.png)
 
-### **Part 2**: Add the Dashboard Page
+### **Part 2: Add the Dashboard Page**
 
 1. Click **Add Page**, and then click **Dashboard**.
     ![](images/2/add-page-dashboard.png)
@@ -69,7 +68,7 @@ TODO.
 - Click **Add Page**.  
     ![](images/2/chart-3.png)  
 
-### **Part 3**: Add the Project Page
+### **Part 3: Add the Project Page**
 
 1. Click **Add Page**, and then click **Cards**.
 2. Enter the following:
@@ -82,7 +81,7 @@ TODO.
 
     ![](images/2/add-page-project.png) 
 
-### **Part 4**: Add the Milestone Page
+### **Part 4: Add the Milestone Page**
 
 1. Click **Add Page**, and then click **Report**.
 2. Enter the following:
@@ -94,7 +93,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-milestone.png)
 
-### **Part 5**: Add the Task Pages
+### **Part 5: Add the Task Pages**
 
 1. Click **Add Page**, and then click **Report**.
 2.  Enter the following:
@@ -108,7 +107,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-tasks.png)
 
-### **Part 6**: Add a Calendar Page
+### **Part 6: Add a Calendar Page**
 
 1. Click **Add Page**, and then click **Calendar**.
 - Enter the following:
@@ -120,7 +119,7 @@ TODO.
 3. Click **Add Page**.  
     ![](images/2/add-page-calendar.png)
 
-### **Part 7**: Include All Features
+### **Part 7: Include All Features**
 
 1. Next to Features, click **Check All**, and then click **Create Application**. 
     ![](images/2/check-all.png)
