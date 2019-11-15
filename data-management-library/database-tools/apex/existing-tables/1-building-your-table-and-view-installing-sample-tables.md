@@ -1,6 +1,6 @@
 # Module 1: Building your tables and view - Installing Sample Tables
 In this module, you will install your first sample datasets and review the datasets.
-### **Part 1**: Create Sample Project Tables
+### **Part 1: Create Sample Project Tables**
 TODO.
 1. In the main menu, select **SQL Workshop**, select **Utilities**, and then click **Sample Datasets**.  
 
@@ -8,10 +8,14 @@ TODO.
 
 2. On the Project Data row, click **Install**.  
 ![](images/1/install-project-table.png)
-3. Now, click **Next**, click **Install Dataset**, and then click **Exit**.   
+3. Now, click **Next**, click **Install Dataset**, and then click **Exit**. 
+    ![](images/1/click-next.png)
+    ![](images/1/install-dataset.png)
+    ![](images/1/click-exit.png)
+
     *We do not want to create an application directly on the tables*
 
-### **Part 2**: Review Database Objects
+### **Part 2: Review Database Objects**
 TODO.
 - In the App Builder Menu, select **SQL Workshop**, and click **Object Browser**.  
 ![](images/1/object-browser.png)
