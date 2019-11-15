@@ -57,6 +57,7 @@ TODO.
 1. Click **Add Page**, and then click **Cards**.
     ![](images/2/adding-page.png)
 2. Enter the following and click **Add Page**.
+
     | Property | Enter or Select | Value |
     | --- | --- | --- |
     | **Page Name** | enter | **Projects** |
