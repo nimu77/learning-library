@@ -56,7 +56,7 @@ TODO.
 
 1. Click **Add Page**, and then click **Cards**.
     ![](images/2/adding-page.png)
-2. Enter the following:
+2. Enter the following and click **Add Page**.
     | Property | Enter or Select | Value |
     | --- | --- | --- |
     | **Page Name** | enter | **Projects** |
@@ -64,13 +64,12 @@ TODO.
     | **Card Title** | select | **NAME** |
     | **Description** | select | **Description** |
     | **Additional Text** | select | **PROJECT_LEAD** |
-3. Click **Add Page**.
 
     ![](images/2/add-page-project.png) 
 
 ### **Part 4: Adding the Milestone Page**
 
-1. Click **Add Page**, and then click **Report**.
+1. Click **Add Page**, and then click **Interactive Report**.
 2. Enter the following:
   - Page Name - enter **Milestones**.
   - Table - select **SAMPLE$PROJECT_MILESTONES**.
@@ -82,7 +81,7 @@ TODO.
 
 ### **Part 5: Adding the Task Page**
 
-1. Click **Add Page**, and then click **Report**.
+1. Click **Add Page**, and then click **Interactive Report**.
 2.  Enter the following:
   - Page Name - enter **Tasks**. 
   - Table - select **SAMPLE$PROJECT_TASKS**.
