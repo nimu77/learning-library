@@ -71,7 +71,16 @@ TODO.
 ### **Part 4: Adding the Milestone Page**
 
 1. Click **Add Page**, and then click **Interactive Report**.
-2. Enter the following:
+2. Enter the following and click **Add Page**.
+
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | **Page Name** | enter | **Milestones** |
+    | **Table** | select | **SAMPLE$PROJECT_MILESTONES** |
+    | **Lookup Key 1** | select | **PROJECT_ID** |
+    | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
+    *Check **Include Form***
+    
   - Page Name - enter **Milestones**.
   - Table - select **SAMPLE$PROJECT_MILESTONES**.
   - Check **Include Form**. 
