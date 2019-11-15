@@ -10,13 +10,13 @@ TODO.
 
 | # | Module | Est. Time |
 | --- | --- | --- |
-| 1 | [Installing Sample Tables](1-building-your-table-and-view-installing-sample-tables.md) | 5 min |
-| 2 | [Using the Create Application Wizard](2-building-your-app-using-the-create-application-wizard.md) | 10 min |
-| 3 | [Improving the Generated App](3-recreating-the-app-improving-the-generated-app.md) | 5 min |
-| 4 | [Updating the Milestones Page](4-using-page-designer-updating-the-milestones-page.md) | 5 min |
-| 5 | [Add the Project Form Page](5-creating-a-page-to-update-project-records-add-the-project-form-page.md) | 15 min |
-| 6 | [Updating the Task Pages](6-improving-usability-updating-the-task-pages.md) | 10 min |
-| 7 | [Link the Calendar to the Tasks Form Pages](7-linking-pages-link-the-calendar-to-the-tasks-form-pages.md) | 3 min |
+| **1** | [**Installing Sample Tables**](1-building-your-table-and-view-installing-sample-tables.md) | **5 min** |
+| **2** | [**Using the Create Application Wizard**](2-building-your-app-using-the-create-application-wizard.md) | **10 min** |
+| **3** | [**Improving the Generated App**](3-recreating-the-app-improving-the-generated-app.md) | **5 min** |
+| **4** | [**Updating the Milestones Page**](4-using-page-designer-updating-the-milestones-page.md) | **5 min** |
+| **5** | [**Add the Project Form Page**](5-creating-a-page-to-update-project-records-add-the-project-form-page.md) | **15 min** |
+| **6** | [**Updating the Task Pages**](6-improving-usability-updating-the-task-pages.md) | **10 min** |
+| **7** | [**Link the Calendar to the Tasks Form Pages**](7-linking-pages-link-the-calendar-to-the-tasks-form-pages.md) | **3 min** |
 
 
 ## Parts
