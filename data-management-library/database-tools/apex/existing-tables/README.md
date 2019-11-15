@@ -21,7 +21,7 @@ TODO.
 
 ## Parts
 
-### **Part 1**: Acquire an Oracle Cloud trial account
+### **Part 1: Acquire an Oracle Cloud trial account**
 
 In this part, you will create an Oracle Cloud trial account. If you already have an Oracle Cloud account, you may skip to Part 2.
 
@@ -31,7 +31,7 @@ In this part, you will create an Oracle Cloud trial account. If you already have
 
     ![](images/0/get-started-email.png)
 
-### **Part 2**: Log in to your Oracle Cloud account
+### **Part 2: Log in to your Oracle Cloud account**
 
 In this part, you will log into your Oracle Cloud account so that you can start working with various services.
 
@@ -47,7 +47,7 @@ In this part, you will log into your Oracle Cloud account so that you can start 
 
     ![](images/0/enter-user-name-and-password.png)
 
-### **Part 3**: Create an Autonomous Transaction Processing instance
+### **Part 3: Create an Autonomous Transaction Processing instance**
 
 In this part, you will create an instance of the Autonomous Transaction Processing database service.
 
@@ -73,7 +73,7 @@ In this part, you will create an instance of the Autonomous Transaction Processi
 
     ![](images/0/status-available.png)
 
-### **Part 4**: Create a new workspace in APEX
+### **Part 4: Create a new workspace in APEX**
 
 When you first access APEX you will need to log in as an APEX instance administrator to create a workspace. A workspace is a logical domain where you define APEX applications. Each workspace is associated with one or more database schemas (database users) which are used to store the database objects, such as tables, views, packages, and more. These database objects are generally what APEX applications are built on top of.
 
