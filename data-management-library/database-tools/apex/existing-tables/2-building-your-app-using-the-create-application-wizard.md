@@ -55,12 +55,15 @@ TODO.
 ### **Part 3: Adding the Project Page**
 
 1. Click **Add Page**, and then click **Cards**.
+    ![](images/2/adding-page.png)
 2. Enter the following:
-   - Page Name - enter **Projects**.
-   - Table - select **SAMPLE$PROJECTS**.
-   - Card Title - select **NAME**.
-   - Description - select **Description**.
-   - Additional Text - select **PROJECT_LEAD**.
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | **Page Name** | enter | **Projects** |
+    | **Table** | select | **SAMPLE$PROJECTS** |
+    | **Card Title** | select | **NAME** |
+    | **Description** | select | **Description** |
+    | **Additional Text** | select | **PROJECT_LEAD** |
 3. Click **Add Page**.
 
     ![](images/2/add-page-project.png) 
