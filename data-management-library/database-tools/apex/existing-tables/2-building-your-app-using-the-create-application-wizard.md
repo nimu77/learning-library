@@ -80,34 +80,40 @@ TODO.
     | **Lookup Key 1** | select | **PROJECT_ID** |
     | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
 
-    *Check **Include Form***
+    *Check **Include Form**.*
     
     ![](images/2/add-page-milestone.png)
 
 ### **Part 5: Adding the Task Page**
 
 1. Click **Add Page**, and then click **Interactive Report**.
-2.  Enter the following:
-  - Page Name - enter **Tasks**. 
-  - Table - select **SAMPLE$PROJECT_TASKS**.
-  - Check **Include Form**. 
-  - Lookup Key 1 - select **PROJECT_ID**.
-  - Display Col 1 - select **SAMPLE$PROJECTS.NAME**.
-  - Lookup Key 2 - select **MILESTONE_ID**. 
-  - Display Col 2 - select **SAMPLE$PROJECT_MILESTONES.NAME**.
-3. Click **Add Page**.  
+2.  Enter the following and click **Add Page**.
+
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | **Page Name** | enter | **Tasks** |
+    | **Table** | select | **SAMPLE$PROJECT_TASKS** |
+    | **Lookup Key 1** | select | **PROJECT_ID** |
+    | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
+    | **Lookup Key 2** | select | **MILESTONE_ID** |
+    | **Display Col 2** | select | **SAMPLE$PROJECTS_MILESTONES.NAME** |
+    
+    *Check **Include Form**.*
     ![](images/2/add-page-tasks.png)
 
 ### **Part 6: Adding the Calendar Page**
 
 1. Click **Add Page**, and then click **Calendar**.
-- Enter the following:
-  - Page Name - enter **Tasks Calendar**.
-  - Table - select **SAMPLE$PROJECT_TASKS**.
-  - Display Column - select **NAME**.
-  - Start Date Column - select **START_DATE**.
-  - End Date Column - select **END_DATE**.
-3. Click **Add Page**.  
+2. Enter the following and click **Add Page**.
+
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | **Page Name** | enter | **Tasks Calendar** |
+    | **Table** | select | **SAMPLE$PROJECT_TASKS** |
+    | **Display Column** | select | **NAME** |
+    | **Start Date Column** | select | **START_DATE** |
+    | **End Date Column** | select | **END_DATE** |
+  
     ![](images/2/add-page-calendar.png)
 
 ### **Part 7: Including All Features**
@@ -117,7 +123,7 @@ TODO.
     Once, you click **Create Application**, your new application will be displayed in Page Designer.
 2. Click **Run Application**.
     ![](images/2/run-application.png)
-3. Enter your user credentials, and play around with your new application.
+3. Enter your user credentials, this is how your application should look like.
 
     ![](images/2/runtime-app.png)
 
