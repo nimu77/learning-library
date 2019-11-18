@@ -79,14 +79,9 @@ TODO.
     | **Table** | select | **SAMPLE$PROJECT_MILESTONES** |
     | **Lookup Key 1** | select | **PROJECT_ID** |
     | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
+
     *Check **Include Form***
     
-  - Page Name - enter **Milestones**.
-  - Table - select **SAMPLE$PROJECT_MILESTONES**.
-  - Check **Include Form**. 
-  - Lookup Key 1 - select **PROJECT_ID**.
-  - Display Col 1 - select **SAMPLE$PROJECTS.NAME**.
-3. Click **Add Page**.  
     ![](images/2/add-page-milestone.png)
 
 ### **Part 5: Adding the Task Page**
