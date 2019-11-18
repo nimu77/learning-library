@@ -98,6 +98,7 @@ TODO.
     | **Lookup Key 2** | select | **MILESTONE_ID** |
     | **Display Col 2** | select | **SAMPLE$PROJECTS_MILESTONES.NAME** |
     *Check **Include Form**.*
+    
     ![](images/2/add-page-tasks.png)
 
 ### **Part 6: Adding the Calendar Page**
@@ -122,7 +123,7 @@ TODO.
     Once, you click **Create Application**, your new application will be displayed in Page Designer.
 2. Click **Run Application**.
     ![](images/2/run-application.png)
-3. Enter your user credentials, this is how your application should look like.
+3. Enter your user credentials, your application should look like this.
 
     ![](images/2/runtime-app.png)
 

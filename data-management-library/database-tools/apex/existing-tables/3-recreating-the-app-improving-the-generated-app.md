@@ -1,67 +1,53 @@
 # Module 3: Recreating the App - Improving the Generated App
-In this module, you will learn how to review the forms and make necessary changes by deleting an app and recreating with different settings to make form more interactive and user friendly. TODO.
+In this module, you will learn how to review the forms and make necessary changes by deleting an app and recreating with different settings to make form more interactive and user friendly. 
 
-### **Part 1**: View Milestone Form
+### **Part 1**: Reviewing Form, Deleting an app and loading a blueprint
 
-- In the runtime environment, within the menu, click **Milestones**.
-- Click the edit icon for a Milestone.  
+1. In the runtime environment, within the menu, click **Milestones**.
+2. Click the edit icon for a Milestone.  
 *Notice that there are only a few items – An Interactive Grid may work better.*
     ![](images/3/edit-milestone.png)
 
-### **Part 2**: Return to the App Builder
-
-- In the runtime environment, within the developer toolbar, click **Application xxxxx**.  
+3. In the runtime environment, within the developer toolbar, click **Application xxxxx**.  
     ![](images/3/click-application.png)  
     *Note: The Developer Toolbar is only shown to developers who run the application from the App Builder. End users will never be shown the Developer Toolbar.*
 
-### **Part 3**: Delete the App
-
-- From the App Home Page, under Tasks, click **Delete this application**.  
+4. From the App Home Page, under Tasks, click **Delete this application** and then click **Permanently Delete Now**. 
     ![](images/3/delete-application.png)  
-- Click **Permanently Delete Now**.
+    ![](images/3/permanently-delete.png)
 
-### **Part 4**: Create a new App
-
-- From the App Builder Home Page, click **Create**.  
+5. From the App Builder Home Page, click **Create** and then click **New Application**. 
     ![](images/3/create-new-app.png) 
-- Click **New Application**.
 
-### **Part 5**: Load Blueprint
-
-- Click **Load Blueprint**.
-- For the latest app generated, click **Load**.  
+6. Click **Load Blueprint** and then click **Load** where you see **Projects** for the **Name** column.  
     ![](images/3/load-blueprint.png)  
 *The previously defined app definition will be displayed*.
 
-### **Part 6**: Delete the Milestones Report
+### **Part 2**: Modifying the Blueprint and creating an app
 
-- In the list of pages, for Milestones, click **Edit**.
-- Click **Delete**.  
+1. In the list of pages, for Milestones, click **Edit** and then click **Delete**.  
     ![](images/3/delete-milestone.png)
 
-### **Part 7**: Add a new Milestone Page
+2. Click **Add Page** and then click **Interactive Grid**.
+3. Enter the following and click **Add Page**.
 
-- Click **Add Page**.
-- Click **Interactive Grid**.
-- Enter the following:
-  - Page Name - enter **Milestones**.
-  - Table - select **SAMPLE$PROJECT_MILESTONES**.
-- Click **Add Page**.  
+    | Property | Enter or Select | Value |
+    | --- | --- | --- |
+    | **Page Name** | enter | **Milestones** |
+    | **Table or View** | select | **SAMPLE$PROJECT_MILESTONES** |
+
+ 
     ![](images/3/add-new-milestone.png)
 
-### **Part 8**: Reorder the pages
-
-- In the list of Pages, for the Milestones page, select the hamburger.
-- Drag the page up until it is under the Projects page and drop.
+4. In the list of Pages, for the Milestones page, select the hamburger and drag the page up until it is under the Projects page and drop.
     ![](images/3/reorder-pages.png)
-- Click **Create Application**.
+5. Click **Create Application**.
 
-### **Part 9**: App in Page Designer
+### **Part 3**: Reviewing the Milestone Page
 
-- Your new application will be displayed in Page Designer.
-- Click **Run Application**.
-- Enter your user credentials.
-- Navigate to **Milestones**.
+1. Your new application will be displayed in Page Designer.
+2. Click **Run Application** and enter your user credentials.
+3. Navigate to **Milestones**.
     ![](images/3/new-milestone.png)
 
 TODO. [Click here to navigate to Module 4](4-using-page-designer-updating-the-milestones-page.md)  
