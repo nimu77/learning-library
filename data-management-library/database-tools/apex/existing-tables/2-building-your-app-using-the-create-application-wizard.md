@@ -80,7 +80,7 @@ TODO.
     | **Lookup Key 1** | select | **PROJECT_ID** |
     | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
 
-    *Check **Include Form**.*
+    *Make sure to check **Include Form**.*
     
     ![](images/2/add-page-milestone.png)
 
@@ -97,7 +97,8 @@ TODO.
     | **Display Col 1** | select | **SAMPLE$PROJECTS.NAME** |
     | **Lookup Key 2** | select | **MILESTONE_ID** |
     | **Display Col 2** | select | **SAMPLE$PROJECTS_MILESTONES.NAME** |
-    *Check **Include Form**.*
+    
+    *Make sure to check **Include Form**.*
     
     ![](images/2/add-page-tasks.png)
 

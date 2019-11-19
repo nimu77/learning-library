@@ -1,7 +1,7 @@
 # Module 4: Using Page Designer - Updating the Milestones Page
-
-### **Part 1**: Update Project Id
-- To replace the Project Id with the Project Name, define an LOV.
+Now, that you have created a new app with a new milestone page with an interactive grid. 
+### **Part 1**: Updating Project Id
+1. To replace the Project Id with the Project Name, define an LOV.
   - In the runtime environment, within the developer toolbar, click **Edit Page 4**
 - Page Designer will be displayed for the Milestones page
    - In the Rendering tree (left pane), click **Columns**, click **PROJECT_ID**. 
