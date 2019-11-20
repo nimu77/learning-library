@@ -24,34 +24,30 @@
 
 ### **Part 3: Creating the Audit Details Region**
 
-- The Created, Created By, Updated, and Updated By columns should be moved into a collapsible region and made display only as they maintained by a trigger on the table.
-   - Right-click on **Sample Project Tasks**.
-   - Click **Create Sub Region**.
+The Created, Created By, Updated, and Updated By columns are hidden right now. By, creating a audit details region, it can be moved into a collapsible region and made display only as they are maintained by a trigger on the table.
+1. Right-click on **Project Tasks** under **Content Body**, and then click **Create Sub Region**.
 
     ![](images/6/create-sub-region.png)
 
-- In the Property Editor (right pane), enter the following:
-   - Identification > Name enter **Audit Details**.
+2. In the Property Editor (right pane), enter the following:
+   - Identification > Title enter **Audit Details**.
    - Appearance > Template select **Collapsible**.
 
     ![](images/6/update-identification.png)
 
-### **Part 5: Moving the audit columns**
+### **Part 4: Moving the audit columns**
 
-- In Layout (center pane), select **P6_CREATED**.
-- Hold the **< Shift >** key and click **P6_CREATED_BY**, click **P6_UPDATED**, and click **P6_UPDATED_BY**.
-- In the Property Editor (right pane), enter the following:
+1. In the rendering tree (left pane), select **P6_CREATED**, hold the **< Shift >** key and click **P6_CREATED_BY**,**P6_UPDATED**, and **P6_UPDATED_BY**.
+2. In the Property Editor (right pane), enter the following and click **Save**.
    - Identification > Type select **Display Only**.
    - Layout > Region select **..Audit Details**.
-- Click **Save**.
 
     ![](images/6/display-only-column.png)
 
-### **Part 6: Reviewing the Page**
+### **Part 5: Reviewing the Page**
 
-- Navigate back to the runtime environment, and refresh the browser.
-- Click the edit icon for a Task.  
-*Note: The date items include a date picker and the numeric item (Cost) gives an error when saving if non-numeric values are entered*
+1. Navigate back to the runtime environment, and refresh the browser.
+2. Click the edit icon for a Task.  
 
     ![](images/6/review-the-page.png)
 
