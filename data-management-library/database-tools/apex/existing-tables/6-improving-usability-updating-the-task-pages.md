@@ -2,23 +2,15 @@
 
 ### **Part 1: Improving the Report**
 
-- In the runtime environment, within the Navigation Menu, click **Tasks**.
-- In the Develop Toolbar (bottom of the screen), click **Edit Page 5**.
+1. In the runtime environment, within the Navigation Menu, click **Tasks**.
+2. In the Development Toolbar (bottom of the screen), click **Edit Page 5**.
 
     ![](images/6/edit-page-five.png)
 
-- In Page Designer, within the Rendering tree (left panel), under Sample Project Tasks region, click **Columns**.
-- Click **PROJECT_ID_L$1**.
-- In the Property Editor (right pane), for Heading enter **Project**.
-
+3. In Page Designer, within the Rendering tree (left panel), under **Project Tasks** region, click **Columns**, and then click **IS_COMPLETE_YN**.
+4. In the Property Editor (right pane), for Heading enter **Complete?**, and then click **Save**.
     ![](images/6/rename-columns.png)
-
-- In the Rendering tree (left pane), click **MILESTONE_ID_L$2**.
-- In the Property Editor (right pane), for Heading enter **Milestone**.
-- In the Rendering tree (left panel), click **IS_COMPLETE_YN**.
-- In the Property Editor (right pane), for Heading enter **Complete?**.
-- Click **Save**.
-
+5. Click **Run** icon. Your **Tasks** page should look like this.
     ![](images/6/new-name-columns.png)
 
 ### **Part 2: Adding Select Lists**
