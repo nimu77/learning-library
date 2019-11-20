@@ -13,42 +13,7 @@
 5. Click **Run** icon. Your **Tasks** page should look like this.
     ![](images/6/new-name-columns.png)
 
-### **Part 2: Adding Select Lists**
-
-- In the runtime environment, click the edit icon for a Task.
-- In the Develop Toolbar (bottom of the screen), click **Edit Page 6**.
-
-    ![](images/6/edit-page-six.png)
-
-- In Page Designer, within the Rendering tree (left pane), click **P6_PROJECT_ID**.
-- In the Property Editor (right pane), enter the following:
-   - Identification > Type select **Select List**.
-   - Label > Label enter **Project**.
-   - List of values > Type select **SQL Query**.
-   - SQL Query enter:
-   ```
-   select name, id from sample$projects
-   order by 1
-   ```
-   - Display Extra Values click **No**.
-   - Null Display Value enter **– Select Project -**.
-
-    ![](images/6/modify-values-page-six.png)
-
-- In Page Designer, within the Rendering tree (left pane), click **P6_MILESTONE_ID**.
-- In the Property Editor (right pane), enter the following:
-   - Identification > Type select **Select List**.
-   - Label > Label enter **Milestone**.
-   - List of values > Type select **SQL Query**.
-   - SQL Query enter:
-   ```
-   select name, id from sample$project_milestones
-   order by 1
-   ```
-   - Display Extra Values click **No**.
-   - Null Display Value enter **– Select Milestone -**.
-
-### **Part 3: Updating Is Complete**
+### **Part 2: Updating Is Complete**
 
 - In the Rendering tree (left panel), click **P6_IS_COMPLETE_YN**.
 - In the Property Editor (right pane), enter the following:

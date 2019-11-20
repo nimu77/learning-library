@@ -41,14 +41,14 @@ There is no form page to manage Projects details.
 2. In the Property Editor (right pane), enter the following:
    - Identification > Type select **Select List**.
    - Label > Label enter **Status**.
-   - List of values > Type select **SQL Query**.
+   - List of values > Type select **SQL Query** and click on the **SQL Query** icon.
    - SQL Query enter:
    ```
    select code, id 
    from sample$project_status
    order by display_order
    ```
-
+    After you press **OK** on the **SQL Query** wizard. Enter the following:
     - Display Extra Values click **No**.
     - Null Display Value enter **– Select Status -**.  
     ![](images/5/update-status.png)
