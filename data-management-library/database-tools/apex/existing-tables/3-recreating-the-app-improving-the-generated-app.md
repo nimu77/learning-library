@@ -1,7 +1,7 @@
 # Module 3: Recreating the App - Improving the Generated App
 In this module, you will learn how to review the forms and make necessary changes by deleting an app and recreating with different settings to make form more interactive and user friendly. 
 
-### **Part 1**: Reviewing Form, Deleting an app and loading a blueprint
+### **Part 1: Reviewing Form, Deleting an app and loading a blueprint**
 
 1. In the runtime environment, within the menu, click **Milestones**.
 2. Click the edit icon for a Milestone.  
@@ -23,7 +23,7 @@ In this module, you will learn how to review the forms and make necessary change
     ![](images/3/load-blueprint.png)  
 *The previously defined app definition will be displayed*.
 
-### **Part 2**: Modifying the Blueprint and creating an app
+### **Part 2: Modifying the Blueprint and creating an app**
 
 1. In the list of pages, for Milestones, click **Edit** and then click **Delete**.  
     ![](images/3/delete-milestone.png)
@@ -43,7 +43,7 @@ In this module, you will learn how to review the forms and make necessary change
     ![](images/3/reorder-pages.png)
 5. Click **Create Application**.
 
-### **Part 3**: Reviewing the Milestone Page
+### **Part 3: Reviewing the Milestone Page**
 
 1. Your new application will be displayed in Page Designer.
 2. Click **Run Application** and enter your user credentials.

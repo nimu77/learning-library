@@ -9,10 +9,10 @@ Now, that you have created a new app with a new milestone page with an interacti
 3. Drag to the right until the **Project** resizes to a suitable size. Repeat for other columns.  
     ![](images/4/adjust-column.png)
 
-### **Part 2**: Saving the Report
+### **Part 2: Saving the Report**
 
 - Click **Actions**, select **Report**, click **Save**.
     ![](images/4/save-report.png)
     ![](images/4/save-report-result.png)
 
-To be added. [Click here to navigate to Module 5](5-creating-a-page-to-update-project-records-add-the-project-form-page.md)
+TODO. [Click here to navigate to Module 5](5-creating-a-page-to-update-project-records-add-the-project-form-page.md)

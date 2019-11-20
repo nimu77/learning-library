@@ -2,7 +2,7 @@
 TODO.
 
 ### **Part 1: Creating an Application**
-TODO.
+
 1. In the App Builder menu, click **App Builder** and then click **Create**.
     ![](images/2/click-create.png)
 
