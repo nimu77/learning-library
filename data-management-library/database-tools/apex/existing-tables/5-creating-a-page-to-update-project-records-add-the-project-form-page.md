@@ -48,6 +48,7 @@ There is no form page to manage Projects details.
    from sample$project_status
    order by display_order
    ```
+
     - Display Extra Values click **No**.
     - Null Display Value enter **– Select Status -**.  
     ![](images/5/update-status.png)
