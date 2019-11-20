@@ -6,25 +6,44 @@
 ## Napkin Design: Improved data model for Projects
 ![](images/1/napkin-design.png)
 
-### **Part 1**: Open Quick SQL
-- Log into your workspace
-- Click **SQL Workshop**
-- Click **SQL Scripts**
+### **Part 1: Opening Quick SQL**
+1. Log into your workspace.
+2. Click **SQL Workshop**, and then click **SQL Scripts**.
     ![](images/1/sql-scripts.png)
-- Click **Quick SQL**
+3. Click **Quick SQL**.
     ![](images/1/quick-sql.png)
 
-### **Part 2**: Enter shorthand for Team Members table 
-- Enter the Table Name **Team Members**
-- Indent 2 or more spaces and enter the column names
+### **Part 2: Entering shorthand for Team Members table** 
+1. Enter the Table Name **Team Members**.
+2. Indent 2 or more spaces and enter the column names
+
+    | Column names |
+    | --- |
+    | username |
+    | full name |
+    | email |
+    | phone_number |
+    | profile |
+    | photo file |
+
+    ```
+    username 
+    full name 
+    email 
+    phone_number 
+    profile 
+    photo file 
+    ```
+
+
+
 
     ![](images/1/create-table-shorthand.png)  
-*Note: You don’t need to enter all of the column names shown,
-as you will load a complete script later in this lesson*
+    *Note: You don’t need to enter all of the column names shown, as you will load a complete script later in this lesson*
 
-### **Part 3**: Enter details for Projects table
-- Enter the Table Name in the first column **Project**
-- Indent 2 or more spaces and enter the column names
+### **Part 3: Entering details for Projects table**
+1. Enter the Table Name in the first column **Project**
+2. Indent 2 or more spaces and enter the column names
 
     ![](images/1/project-table-shorthand.png)
 

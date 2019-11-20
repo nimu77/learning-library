@@ -3,7 +3,7 @@
 ### **Part 1: Improving the Report**
 
 1. In the runtime environment, within the Navigation Menu, click **Tasks**.
-2. In the Development Toolbar (bottom of the screen), click **Edit Page 5**.
+2. In the Developer Toolbar (bottom of the screen), click **Edit Page 5**.
 
     ![](images/6/edit-page-five.png)
 
@@ -14,7 +14,7 @@
     ![](images/6/new-name-columns.png)
 
 ### **Part 2: Updating Is Complete**
-1. In the runtime environment, click the edit icon for a Tasks, and in the Development Toolbar (bottom of the screen), click **Edit Page 6**.
+1. In the runtime environment, click the edit icon for a Tasks, and in the Developer Toolbar (bottom of the screen), click **Edit Page 6**.
     ![](images/6/edit-page-six.png)
 
 2. In the Rendering tree (left panel), click **P6_IS_COMPLETE_YN**.
