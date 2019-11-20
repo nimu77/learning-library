@@ -14,15 +14,15 @@
     ![](images/6/new-name-columns.png)
 
 ### **Part 2: Updating Is Complete**
+1. In the runtime environment, click the edit icon for a Tasks, and in the Development Toolbar (bottom of the screen), click **Edit Page 6**.
+    ![](images/6/edit-page-six.png)
 
-- In the Rendering tree (left panel), click **P6_IS_COMPLETE_YN**.
-- In the Property Editor (right pane), enter the following:
-   - Identification > Type select **Switch**.
-   - Label > Label enter **Complete?**.
+2. In the Rendering tree (left panel), click **P6_IS_COMPLETE_YN**.
+3. In the Property Editor (right pane), for Label > Label enter **Complete?**.
 
     ![](images/6/updating-page-six.png)
 
-### **Part 4: Creating the Audit Details Region**
+### **Part 3: Creating the Audit Details Region**
 
 - The Created, Created By, Updated, and Updated By columns should be moved into a collapsible region and made display only as they maintained by a trigger on the table.
    - Right-click on **Sample Project Tasks**.

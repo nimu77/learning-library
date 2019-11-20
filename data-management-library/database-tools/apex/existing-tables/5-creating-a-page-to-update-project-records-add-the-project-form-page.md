@@ -48,7 +48,7 @@ There is no form page to manage Projects details.
    from sample$project_status
    order by display_order
    ```
-    After you press **OK** on the **SQL Query** wizard. Enter the following:
+3. After you press **OK** on the **SQL Query** wizard. Enter the following:
     - Display Extra Values click **No**.
     - Null Display Value enter **– Select Status -**.  
     ![](images/5/update-status.png)
