@@ -1,6 +1,6 @@
 # Module 6: Improving Usability - Updating the Task Pages
 
-### **Part 1**: Improving the Report
+### **Part 1: Improving the Report**
 
 - In the runtime environment, within the Navigation Menu, click **Tasks**.
 - In the Develop Toolbar (bottom of the screen), click **Edit Page 5**.
@@ -21,7 +21,7 @@
 
     ![](images/6/new-name-columns.png)
 
-### **Part 2**: Adding Select Lists
+### **Part 2: Adding Select Lists**
 
 - In the runtime environment, click the edit icon for a Task.
 - In the Develop Toolbar (bottom of the screen), click **Edit Page 6**.
@@ -56,7 +56,7 @@
    - Display Extra Values click **No**.
    - Null Display Value enter **– Select Milestone -**.
 
-### **Part 3**: Updating Is Complete
+### **Part 3: Updating Is Complete**
 
 - In the Rendering tree (left panel), click **P6_IS_COMPLETE_YN**.
 - In the Property Editor (right pane), enter the following:
@@ -65,7 +65,7 @@
 
     ![](images/6/updating-page-six.png)
 
-### **Part 4**: Create the Audit Details Region
+### **Part 4: Creating the Audit Details Region**
 
 - The Created, Created By, Updated, and Updated By columns should be moved into a collapsible region and made display only as they maintained by a trigger on the table.
    - Right-click on **Sample Project Tasks**.
@@ -79,7 +79,7 @@
 
     ![](images/6/update-identification.png)
 
-### **Part 5**: Move the audit columns
+### **Part 5: Moving the audit columns**
 
 - In Layout (center pane), select **P6_CREATED**.
 - Hold the **< Shift >** key and click **P6_CREATED_BY**, click **P6_UPDATED**, and click **P6_UPDATED_BY**.
@@ -90,7 +90,7 @@
 
     ![](images/6/display-only-column.png)
 
-### **Part 6**: Review the Page
+### **Part 6: Reviewing the Page**
 
 - Navigate back to the runtime environment, and refresh the browser.
 - Click the edit icon for a Task.  
