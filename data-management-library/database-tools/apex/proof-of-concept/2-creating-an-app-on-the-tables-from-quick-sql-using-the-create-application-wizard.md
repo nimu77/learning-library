@@ -1,22 +1,25 @@
 # Module 2: Creating an app on the tables from Quick SQL - Using the Create Application Wizard
 
-### **Part 1**: Start the Create App Wizard
+### **Part 1: Creating Application from SQL Script**
 
-- Click **Create App** from Script
+Now, that you have ran the script. You will create application from it. If you are back on SQL Scripts, and don’t see the **“Create App”** button perform the following steps:
+    - Within the Results column, click “1” for the script you just ran.
+    - Under View Results, click the magnifying glass.
+    *The results page shown above should now be displayed again*
 
-![](images/2/create-app.png) 
-*Note: If you are back on SQL Scripts, and don’t see the “Create
-App from Script” button perform the following steps*:
+1. Click **Create App**, and after that in the **Create App from Script** wizard click **Create Application**.
+
+    ![](images/2/create-app.png) 
+    ![](images/2/create-application.png)
+*Note: If you are back on SQL Scripts, and don’t see the “Create App from Script” button perform the following steps*:
 1. *Within the Results column, click “1” for the script you just ran*.
 2. *Under View Results, click the magnifying glass*.
 
 *The results page shown above should now be displayed again*
 
-### **Part 2**: Name the App and Update Appearance
-
-- For Name, enter **Projects**
-- Click **Appearance**
-- For Theme Style, select **Vita-Slate**
+2. In **Create an Application** wizard, enter the following.
+    - For Name, enter **Projects**.
+    - Click **Appearance** and select **Vita-Slate**.
 
 ![](images/2/name-and-update-appearance.png)
 
