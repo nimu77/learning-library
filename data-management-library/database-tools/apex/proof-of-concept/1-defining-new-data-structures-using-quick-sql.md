@@ -120,11 +120,13 @@ https://www.oracle.com/technetwork/developer-tools/apex/application-express/apex
 1. Click **Save SQL Script**
 2. For Script Name, enter **hol**, click **Save Script**, and then click **Review and Run**.
 
-    ![](images/1/save-script.png)  
-*Note: The script will be displayed in the Script Editor within SQL Scripts*
-- Click **Run**
-- Click **Run Now**  
+    ![](images/1/save-script.png) 
+
+3. The script will be displayed in the Script Editor within SQL Scripts. Now, click **Run**.
     ![](images/1/run-script.png)
+4. Click **Run Now**.
+    ![](images/1/click-run-now.png)
+    
 
 ## Summary.
 
