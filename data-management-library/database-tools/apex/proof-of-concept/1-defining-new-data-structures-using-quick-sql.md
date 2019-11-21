@@ -71,21 +71,19 @@
 ### **Part 5: Improving the Quick SQL**
 
 1. Close **Help** and enter the following.
-    - Enter **/insert xx** for tables
-    - Enter **/nn** for mandatory columns
-    - Enter **/references team_members** for project lead column
-    - Enter **num** for budget column
-    - Enter **/vc30** and **/check ASSIGNED, IN-PROGRESS, COMPLETED** for status column
+    - Enter **/insert xx** for tables.
+    - Enter **/nn** for mandatory columns.
+    - Enter **/references team_members** for project lead column.
+    - Enter **num** for budget column.
+    - Enter **/vc30** and **/check ASSIGNED, IN-PROGRESS, COMPLETED** for status column.
 
     ![](images/1/improving-quick-sql.png)
 
-### **Part 6**: Enter details for a child table
+### **Part 6: Entering details for a child table**
 
-- Enter the Table Name indented **Milestones**
-    ![](images/1/child-table.png)
+1. Enter the Table Name indented **Milestones**.
 
-- Indent 2 or more spaces and
-enter the column names  
+2. Indent 2 or more spaces and enter the column names  
     ![](images/1/column-names-child-table.png)
 
 ### **Part 7**: Enter details for another child table
