@@ -79,54 +79,49 @@
 
     ![](images/1/improving-quick-sql.png)
 
-### **Part 6: Entering details for a child table**
+### **Part 6: Entering details for a child tables**
 
 1. Enter the Table Name indented **Milestones**.
 
-2. Indent 2 or more spaces and enter the column names  
+2. Indent 2 or more spaces and enter the column names. 
     ![](images/1/column-names-child-table.png)
 
-### **Part 7**: Enter details for another child table
-
-- Enter the Table Name indented **Tasks**
-- Indent 2 or more spaces and enter the column names
+3. Enter the Table Name indented **Tasks**.
+4. Indent 2 or more spaces and enter the column names.
 
     ![](images/1/another-child-table.png)
 
-### **Part 8**: Complete the Shorthand
+### **Part 8: Complete the Quick SQL**
 
-- Copy the following URL into a new window in your browser:
-*Remember you are on Part 8 if you click the link directly*  
+1. Copy the following URL into a new window in your browser:
+*Remember you are on Part 8 if you click the link directly*.  
 https://www.oracle.com/technetwork/developer-tools/apex/application-express/apex-beginner-quicksql-5095785.txt
-- Copy and Paste the full script
-into the **Quick SQL Shorthand pane**
-- Click **Generate SQL**
+2. Copy and paste the full script into the **Quick SQL pane**, and then click **Generate SQL**.
 
     ![](images/1/generate-sql.png)
+    ![](images/1/gen-sql.png)
 
-### **Part 9**: Update the Settings
+### **Part 9: Updating the Settings**
 
-- Click **Settings**
-- Object Prefix, enter **hol**
-- On Delete, select **Restrict**
-- Primary Keys, select **12c Identity Data Types**
-- Date Data Type, select **TIMESTAMP WITH LOCAL TIME ZONE**
-- Audit Columns, check Include
-- Row Version Number, check Include
-- Click **Save Changes**
+1. Click **Settings** and enter the following.
+    - Object Prefix, enter **hol**
+    - On Delete, select **Restrict**
+    - Primary Keys, select **12c Identity Data Types**
+    - Date Data Type, select **TIMESTAMP WITH LOCAL TIME ZONE**
+    - Audit Columns, check Include
+    - Row Version Number, check Include
+2. Click **Save Changes**
 
     ![](images/1/update-settings.png)
+    ![](images/1/update-settings2.png)
 
-### **Part 10**: Save, Review, and Run the Script
+### **Part 10: Saving, Reviewing, and Running the Script**
 
-- Click **Save SQL Script**
-- For Script Name, enter **hol**
-- Click **Save Script**
-- Click **Review** and **Run**
+1. Click **Save SQL Script**
+2. For Script Name, enter **hol**, click **Save Script**, and then click **Review and Run**.
 
     ![](images/1/save-script.png)  
-*Note: The script will be displayed in
-the Script Editor within SQL Scripts*
+*Note: The script will be displayed in the Script Editor within SQL Scripts*
 - Click **Run**
 - Click **Run Now**  
     ![](images/1/run-script.png)
