@@ -95,7 +95,11 @@ select **Save**
 
     ![](images/3/save-the-report.png)
 
-## **Learn More** *Useful Links*
+## Summary
+
+TODO.
+
+### **Learn More**-*Useful Links*
 
 - **APEX on Autonomous** https://apex.oracle.com/autonomous
 - **APEX Collateral** https://apex.oracle.com
