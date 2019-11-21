@@ -91,7 +91,7 @@
 
     ![](images/1/another-child-table.png)
 
-### **Part 8: Complete the Quick SQL**
+### **Part 8: Completing the Quick SQL**
 
 1. Copy the following URL into a new window in your browser:
 *Remember you are on Part 8 if you click the link directly*.  
