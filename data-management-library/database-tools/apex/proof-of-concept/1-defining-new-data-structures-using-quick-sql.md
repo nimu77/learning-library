@@ -13,9 +13,9 @@
 3. Click **Quick SQL**.
     ![](images/1/quick-sql.png)
 
-### **Part 2: Entering shorthand for Team Members table** 
+### **Part 2: Entering Quick SQL for Team Members table** 
 1. Enter the Table Name **Team Members**.
-2. Indent 2 or more spaces and enter the column names
+2. Indent 2 or more spaces and enter the following column names.
 
     | Column names |
     | --- |
@@ -35,45 +35,49 @@
     photo file 
     ```
 
-
-
-
     ![](images/1/create-table-shorthand.png)  
     *Note: You don’t need to enter all of the column names shown, as you will load a complete script later in this lesson*
 
-### **Part 3: Entering details for Projects table**
-1. Enter the Table Name in the first column **Project**
-2. Indent 2 or more spaces and enter the column names
+### **Part 3: Entering Quick SQL for Projects table**
+1. Enter the Table Name in the first column **Project**.
+2. Indent 2 or more spaces and enter the following column names.
+
+    | Column names |
+    | --- |
+    | name |
+    | project lead |
+    | budget |
+    | status |
+    | completed_date |
+    | description |
 
     ![](images/1/project-table-shorthand.png)
 
-### **Part 4**: Review Help
+### **Part 4: Reviewing  Help**
 
-- Click **Help**
-- Click **Table Directives**
+1. Click **Help**, and then click **Table Directives** on **Help** wizard.
 
     ![](images/1/review-table-directives.png)
-
-- Click **Column Directives**
+    *Review the row inside the box, as you will be using it to improve the Quick SQL in next part.*
+2. Click **Column Directives**
 
     ![](images/1/review-column-directives.png)
-
-- Click **Data Types**
+    *Review the row inside the box, as you will be using it to improve the Quick SQL in next part.*
+3. Click **Data Types**
 
     ![](images/1/review-data-types.png)
+    *Review the row inside the box, as you will be using it to improve the Quick SQL in next part.*
 
-### **Part 5**: Improve the Shorthand
+### **Part 5: Improving the Quick SQL**
 
-- Close **Help**
-- Enter **/insert xx** for tables
-- Enter **/nn** for mandatory columns
-- Enter **/references team_members** for project lead column
-- Enter **num** for budget column
-- Enter **/vc30** and **/check ASSIGNED,
-IN-PROGRESS, COMPLETED** for
-status column
+1. Close **Help** and enter the following.
+    - Enter **/insert xx** for tables
+    - Enter **/nn** for mandatory columns
+    - Enter **/references team_members** for project lead column
+    - Enter **num** for budget column
+    - Enter **/vc30** and **/check ASSIGNED, IN-PROGRESS, COMPLETED** for status column
 
-    ![](images/1/improve-shorthand.png)
+    ![](images/1/improving-quick-sql.png)
 
 ### **Part 6**: Enter details for a child table
 
