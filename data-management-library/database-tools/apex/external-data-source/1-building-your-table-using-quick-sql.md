@@ -1,6 +1,6 @@
 # Module 1: Building your table - Using Quick SQL
 
-### **Part 1**: Using Quick SQL
+### **Part 1: Using Quick SQL**
 
 1. Log into your workspace, click **SQL Workshop**, and then click **SQL Scripts**.  
 
@@ -21,14 +21,14 @@
      entry_date
     ```
 
-### **Part 2**: Adjusting Generation Settings
+### **Part 2: Adjusting Generation Settings**
 
 1. Click **Settings**. 
     ![](images/1/click-settings.png) 
 2. For Primary Keys select **12c Identity Data Types**, and then click **Save Changes**.   
     ![](images/1/select-primary-key.png)
 
-### **Part 3**: Saving, Reviewing, and Running the Script
+### **Part 3: Saving, Reviewing, and Running the Script**
 
 1. Click **Save SQL Script**, for Script Name, enter **big mac index**, and then click **Save Script**.
     ![](images/1/save-script.png)
